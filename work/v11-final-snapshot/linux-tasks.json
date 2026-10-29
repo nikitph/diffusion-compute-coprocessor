@@ -1,0 +1,342 @@
+[
+  {
+    "id": 0,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_0.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_0.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "8213293dbc09",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 1,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_1.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_1.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "6fbed9be80ce",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 8,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "bb5ae3d2243c",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 9,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "573427b19917",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 16,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_0.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_0.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "-57606",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 17,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_1.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_1.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "32181",
+    "minimum_calls": 1,
+    "allowed": [
+      "read_file",
+      "run"
+    ]
+  },
+  {
+    "id": 100,
+    "kind": "write",
+    "question": "Use write_file to save the literal text native-written-7319 to model_writes/native.txt. After success return DONE.",
+    "expected": "DONE",
+    "minimum_calls": 1,
+    "allowed": [
+      "write_file"
+    ]
+  },
+  {
+    "id": 200,
+    "kind": "multi_csv",
+    "question": "Start at v11/3a68e7ec286c36b4.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "896969f39959",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 201,
+    "kind": "multi_log",
+    "question": "Start at v11/825796da5794e079.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "bef550a067a1",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 202,
+    "kind": "multi_csv",
+    "question": "Start at v11/e0f6286a9481630c.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "aef796a0e823",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 203,
+    "kind": "multi_log",
+    "question": "Start at v11/6d117bc1518529cf.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "20bf13fc9982",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 204,
+    "kind": "multi_csv",
+    "question": "Start at v11/9cff92e0cd5e4456.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "62bbb4210bae",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 205,
+    "kind": "multi_log",
+    "question": "Start at v11/83b3f25944ee6c83.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "111688eb0069",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 206,
+    "kind": "multi_csv",
+    "question": "Start at v11/cb6cd9f9a9782448.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "d7c61fc74b44",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 207,
+    "kind": "multi_log",
+    "question": "Start at v11/a39ed629051f5206.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "40f22f1459e6",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 208,
+    "kind": "multi_csv",
+    "question": "Start at v11/d5bccf7f9d5d79d3.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "cf1e1df1c562",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 209,
+    "kind": "multi_log",
+    "question": "Start at v11/92254168dc13d46f.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "acf4ecb6ce65",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 210,
+    "kind": "multi_csv",
+    "question": "Start at v11/e47c313b49065651.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "32c4a0cf3952",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 211,
+    "kind": "multi_log",
+    "question": "Start at v11/15dd5cb741b6b1ac.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "30a25c9e9c45",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 212,
+    "kind": "multi_csv",
+    "question": "Start at v11/b13af97aa949defa.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "45616a4805fe",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 213,
+    "kind": "multi_log",
+    "question": "Start at v11/9681f14f50783099.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "973ad55bfdcc",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 214,
+    "kind": "multi_csv",
+    "question": "Start at v11/1e7283ba2568ef79.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "99bc8f922c37",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 215,
+    "kind": "multi_log",
+    "question": "Start at v11/7e5da5e64ae8a29d.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "8adf77ca375a",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 216,
+    "kind": "multi_csv",
+    "question": "Start at v11/89f67b26f3841700.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "7486398cc8e6",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 217,
+    "kind": "multi_log",
+    "question": "Start at v11/124653c2e29e14b0.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "035060e6deec",
+    "minimum_calls": 4,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 218,
+    "kind": "multi_csv",
+    "question": "Start at v11/83983a5c85c9e70a.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "fee6c23ee6db",
+    "minimum_calls": 2,
+    "allowed": [
+      "read_file"
+    ]
+  },
+  {
+    "id": 219,
+    "kind": "multi_log",
+    "question": "Start at v11/5e75cc69fa40a28a.txt. Follow each next_file link by calling read_file separately. When you reach the final CSV or log record, return its value, exactly. Do not use run for this task.",
+    "expected": "0a2a2fd41990",
+    "minimum_calls": 3,
+    "allowed": [
+      "read_file"
+    ]
+  }
+]

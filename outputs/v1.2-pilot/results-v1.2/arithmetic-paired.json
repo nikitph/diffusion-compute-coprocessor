@@ -1,0 +1,26 @@
+{
+  "M4\u2192A7": {
+    "n": 0,
+    "both_correct": 0,
+    "both_wrong": 0,
+    "b_fixes": 0,
+    "b_regresses": 0,
+    "exact_two_sided_mcnemar": null
+  },
+  "M4\u2192A7W": {
+    "n": 0,
+    "both_correct": 0,
+    "both_wrong": 0,
+    "b_fixes": 0,
+    "b_regresses": 0,
+    "exact_two_sided_mcnemar": null
+  },
+  "A7\u2192A7W": {
+    "n": 0,
+    "both_correct": 0,
+    "both_wrong": 0,
+    "b_fixes": 0,
+    "b_regresses": 0,
+    "exact_two_sided_mcnemar": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "A3": {
+    "tests": {
+      "firing_at_least_70pct": true,
+      "use_at_least_70pct": false,
+      "regressions_at_most_2pct": false,
+      "direct_improvement_p_below_005": true,
+      "midblock_at_least_30pct": true,
+      "late_correct_at_least_50pct": true,
+      "remask_budget_respected": true,
+      "safety_zero_including_stale": false
+    },
+    "all_pass": false,
+    "late_correct_rate": 0.8333333333333334,
+    "late_n": 6
+  },
+  "A4": {
+    "tests": {
+      "firing_at_least_70pct": true,
+      "use_at_least_70pct": true,
+      "regressions_at_most_2pct": false,
+      "direct_improvement_p_below_005": true,
+      "midblock_at_least_30pct": true,
+      "late_correct_at_least_50pct": true,
+      "remask_budget_respected": true,
+      "safety_zero_including_stale": false
+    },
+    "all_pass": false,
+    "late_correct_rate": 1.0,
+    "late_n": 6
+  }
+}

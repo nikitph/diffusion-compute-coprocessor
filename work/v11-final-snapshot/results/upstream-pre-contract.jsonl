@@ -1,0 +1,6 @@
+{"id": 0, "kind": "direct", "text": "91008 + 83201 = 174209\nAnswer: 174209", "prediction": "174209", "correct": true}
+{"id": 1, "kind": "dependent", "text": "<|tool_calls_section_begin|><|tool_call_begin|>functions.calc:4<|tool_call_argument_begin|>{\"expression\": \"174209 > 174205\"}<|tool_call_end|><|tool_calls_section_end|>", "prediction": null, "correct": false}
+{"id": 2, "kind": "direct", "text": "14927 + 75437 = 90364", "prediction": null, "correct": false}
+{"id": 3, "kind": "dependent", "text": "<|tool_calls_section_begin|><|tool_call_begin|>functions.calc:4<|tool_call_argument_begin|>{\"expression\": \"90364 > 90367\"}<|tool_call_end|><|tool_calls_section_end|>", "prediction": null, "correct": false}
+{"id": 4, "kind": "direct", "text": "44452 - 10947 = 33505", "prediction": null, "correct": false}
+{"id": 5, "kind": "dependent", "text": "<|tool_calls_section_begin|><|tool_call_begin|>functions.calc:4<|tool_call_argument_begin|>{\"expression\": \"33505 > 33501\"}<|tool_call_end|><|tool_calls_section_end|>", "prediction": null, "correct": false}

@@ -1,0 +1,97 @@
+{
+  "counts": {
+    "delay": {
+      "actual": 144,
+      "expected": 144
+    },
+    "linux": {
+      "actual": 85,
+      "expected": 108
+    },
+    "full": {
+      "actual": 0,
+      "expected": 720
+    },
+    "mid": {
+      "actual": 0,
+      "expected": 240
+    },
+    "prerequisite-smoke": {
+      "actual": 108,
+      "expected": 108
+    },
+    "prerequisite-reproduction": {
+      "actual": 5,
+      "expected": 5
+    }
+  },
+  "duplicates": [],
+  "safety_findings": [],
+  "pause_count": 113,
+  "pause_checks_all_pass": true,
+  "kernel_values_checked": 77,
+  "kernel_all_exact": true,
+  "source_hashes_match": {
+    "PROTOCOL.md": true,
+    "arithmetic_hook.py": true,
+    "workspace-before.json": true,
+    "linux-tasks.json": true,
+    "event_sampler.py": true,
+    "call_parser.py": true,
+    "wait_adapter.py": true,
+    "run_v12.py": true,
+    "v11-reference.json": true,
+    "native_tools.py": true,
+    "test_wait.py": true,
+    "async_engine.py": true,
+    "gpu_arithmetic.py": true,
+    "arith_reference.py": true,
+    "requirements.txt": true,
+    "local-processes.json": "local process IDs are mutable orchestration metadata, not runtime source",
+    "brief.txt": true,
+    "linux_runner.py": true,
+    "pilot.py": true,
+    "old_sampler.py": true
+  },
+  "missing": [],
+  "write_checks": [
+    {
+      "stage": "linux",
+      "id": 100,
+      "condition": "L0",
+      "delay": 0,
+      "scored_correct": false,
+      "matching_receipt": false,
+      "strict": true
+    },
+    {
+      "stage": "linux",
+      "id": 100,
+      "condition": "L1",
+      "delay": 0,
+      "scored_correct": true,
+      "matching_receipt": true,
+      "strict": true
+    },
+    {
+      "stage": "linux",
+      "id": 100,
+      "condition": "L2",
+      "delay": 0,
+      "scored_correct": true,
+      "matching_receipt": true,
+      "strict": true
+    },
+    {
+      "stage": "linux",
+      "id": 100,
+      "condition": "L3",
+      "delay": 0,
+      "scored_correct": true,
+      "matching_receipt": true,
+      "strict": true
+    }
+  ],
+  "workspace_changes": [],
+  "unexpected_workspace_changes": []
+}

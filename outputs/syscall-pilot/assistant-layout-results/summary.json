@@ -1,0 +1,22 @@
+{
+  "async": {
+    "correct": 11,
+    "n": 24
+  },
+  "async_delay20": {
+    "correct": 11,
+    "n": 24
+  },
+  "base": {
+    "correct": 0,
+    "n": 24
+  },
+  "post_generation_restart": {
+    "correct": 11,
+    "n": 24
+  },
+  "sync": {
+    "correct": 11,
+    "n": 24
+  }
+}

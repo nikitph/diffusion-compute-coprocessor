@@ -1,0 +1,48 @@
+{
+  "complete": false,
+  "gates": {},
+  "safety": {
+    "D1": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "D2": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "D3": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "L0": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "L1": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "L2": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    },
+    "L3": {
+      "lock_violations": 0,
+      "stray_effect": 0,
+      "stale_completion": 0,
+      "residual_masks": 0
+    }
+  }
+}

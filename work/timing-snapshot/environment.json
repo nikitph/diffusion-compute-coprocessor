@@ -1,0 +1,18 @@
+{
+  "model": "GSAI-ML/LLaDA-8B-Instruct",
+  "revision": "08b83a6feb34df1a6011b80c3c00c7563e963b07",
+  "torch": "2.8.0+cu128",
+  "transformers": "4.38.2",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "args": {
+    "output": "timing-results",
+    "limit": 36,
+    "steps": 64,
+    "length": 192,
+    "batch": 4,
+    "fractions": "0.25,0.5",
+    "tau": 0.5,
+    "overwrite": false,
+    "backend": "gpu"
+  }
+}

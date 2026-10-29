@@ -1,0 +1,11 @@
+{
+  "pid": 6615,
+  "sampling_records": 0,
+  "observed_elapsed_seconds": 346,
+  "gpu_memory_mib": 31435,
+  "gpu_util_percent": 0,
+  "main_thread_wait": "futex_wait_queue",
+  "two_loader_threads_wait": "folio_wait_bit_common (D state)",
+  "python_stack_inspection": "py-spy denied ptrace access; no security setting changed",
+  "action": "SIGTERM to supplemental loader; preserve main results; stop pod after backup verification"
+}

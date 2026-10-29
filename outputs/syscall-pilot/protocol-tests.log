@@ -1,0 +1,11 @@
+test_commit_rule_vs_unsafe_control (test_protocol.LinuxGatewayTests.test_commit_rule_vs_unsafe_control) ... ok
+test_errors_and_uncommitted_effect (test_protocol.LinuxGatewayTests.test_errors_and_uncommitted_effect) ... ok
+test_isolated_writes_and_no_network (test_protocol.LinuxGatewayTests.test_isolated_writes_and_no_network) ... ok
+test_seven_calls (test_protocol.LinuxGatewayTests.test_seven_calls) ... ok
+test_pending_call_never_blocks_barriers_and_deduplicates (test_protocol.QueueTests.test_pending_call_never_blocks_barriers_and_deduplicates) ... ok
+test_revised_read_result_is_discarded (test_protocol.QueueTests.test_revised_read_result_is_discarded) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 5.568s
+
+OK

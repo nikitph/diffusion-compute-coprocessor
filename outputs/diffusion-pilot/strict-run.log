@@ -1,0 +1,77 @@
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+/tmp/pilot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/tmp/pilot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:11<00:59, 11.84s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:23<00:47, 11.99s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:43<00:46, 15.52s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [01:04<00:34, 17.46s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [01:18<00:16, 16.21s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:29<00:00, 14.42s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:29<00:00, 14.84s/it]
+{"offset": 0, "condition": "base", "seconds": 8.52, "correct": 4, "injections": 0}
+{"offset": 0, "condition": "mid_0.5", "seconds": 8.72, "correct": 3, "injections": 4}
+{"offset": 0, "condition": "mid_0.75", "seconds": 8.61, "correct": 3, "injections": 4}
+{"offset": 4, "condition": "mid_0.5", "seconds": 8.6, "correct": 3, "injections": 4}
+{"offset": 4, "condition": "mid_0.75", "seconds": 8.6, "correct": 3, "injections": 4}
+{"offset": 4, "condition": "base", "seconds": 8.59, "correct": 4, "injections": 0}
+{"offset": 8, "condition": "mid_0.75", "seconds": 8.88, "correct": 3, "injections": 2}
+{"offset": 8, "condition": "base", "seconds": 8.67, "correct": 2, "injections": 0}
+{"offset": 8, "condition": "mid_0.5", "seconds": 8.74, "correct": 2, "injections": 3}
+{"offset": 12, "condition": "base", "seconds": 9.27, "correct": 4, "injections": 0}
+{"offset": 12, "condition": "mid_0.5", "seconds": 9.29, "correct": 4, "injections": 4}
+{"offset": 12, "condition": "mid_0.75", "seconds": 9.29, "correct": 4, "injections": 4}
+{"offset": 16, "condition": "mid_0.5", "seconds": 9.37, "correct": 3, "injections": 4}
+{"offset": 16, "condition": "mid_0.75", "seconds": 9.33, "correct": 3, "injections": 3}
+{"offset": 16, "condition": "base", "seconds": 9.28, "correct": 4, "injections": 0}
+{"offset": 20, "condition": "mid_0.75", "seconds": 9.46, "correct": 3, "injections": 2}
+{"offset": 20, "condition": "base", "seconds": 9.39, "correct": 2, "injections": 0}
+{"offset": 20, "condition": "mid_0.5", "seconds": 9.61, "correct": 3, "injections": 3}
+{"offset": 24, "condition": "base", "seconds": 9.44, "correct": 4, "injections": 0}
+{"offset": 24, "condition": "mid_0.5", "seconds": 9.46, "correct": 3, "injections": 4}
+{"offset": 24, "condition": "mid_0.75", "seconds": 9.51, "correct": 3, "injections": 2}
+{"offset": 28, "condition": "mid_0.5", "seconds": 9.44, "correct": 4, "injections": 4}
+{"offset": 28, "condition": "mid_0.75", "seconds": 9.51, "correct": 4, "injections": 1}
+{"offset": 28, "condition": "base", "seconds": 9.42, "correct": 4, "injections": 0}
+{"offset": 32, "condition": "mid_0.75", "seconds": 9.68, "correct": 1, "injections": 0}
+{"offset": 32, "condition": "base", "seconds": 9.55, "correct": 1, "injections": 0}
+{"offset": 32, "condition": "mid_0.5", "seconds": 9.68, "correct": 2, "injections": 2}
+{
+  "direct/base": {
+    "n": 18,
+    "correct": 12,
+    "accuracy": 0.6666666666666666
+  },
+  "direct/mid_0.5": {
+    "n": 18,
+    "correct": 13,
+    "accuracy": 0.7222222222222222
+  },
+  "direct/mid_0.75": {
+    "n": 18,
+    "correct": 12,
+    "accuracy": 0.6666666666666666
+  },
+  "direct/posthoc_equations": {
+    "n": 18,
+    "correct": 18,
+    "accuracy": 1.0
+  },
+  "dependent/base": {
+    "n": 18,
+    "correct": 17,
+    "accuracy": 0.9444444444444444
+  },
+  "dependent/mid_0.5": {
+    "n": 18,
+    "correct": 14,
+    "accuracy": 0.7777777777777778
+  },
+  "dependent/mid_0.75": {
+    "n": 18,
+    "correct": 15,
+    "accuracy": 0.8333333333333334
+  },
+  "dependent/posthoc_equations": {
+    "n": 18,
+    "correct": 17,
+    "accuracy": 0.9444444444444444
+  }
+}

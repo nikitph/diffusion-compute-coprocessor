@@ -1,0 +1,15 @@
+test_extra_text_rejected (test_parser.ParserTests.test_extra_text_rejected) ... ok
+test_incomplete_json_is_not_a_call (test_parser.ParserTests.test_incomplete_json_is_not_a_call) ... ok
+test_padding_not_part_of_commit_span (test_parser.ParserTests.test_padding_not_part_of_commit_span) ... ok
+test_path_and_command_types (test_parser.ParserTests.test_path_and_command_types) ... ok
+test_commit_rule_vs_unsafe_control (test_protocol.LinuxGatewayTests.test_commit_rule_vs_unsafe_control) ... ok
+test_errors_and_uncommitted_effect (test_protocol.LinuxGatewayTests.test_errors_and_uncommitted_effect) ... ok
+test_isolated_writes_and_no_network (test_protocol.LinuxGatewayTests.test_isolated_writes_and_no_network) ... ok
+test_seven_calls (test_protocol.LinuxGatewayTests.test_seven_calls) ... ok
+test_pending_call_never_blocks_barriers_and_deduplicates (test_protocol.QueueTests.test_pending_call_never_blocks_barriers_and_deduplicates) ... ok
+test_revised_read_result_is_discarded (test_protocol.QueueTests.test_revised_read_result_is_discarded) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.251s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "D1": {
+    "n": 24,
+    "exact_value_present": 7,
+    "strict_correct": 6
+  },
+  "D2": {
+    "n": 24,
+    "exact_value_present": 24,
+    "strict_correct": 24
+  },
+  "D3": {
+    "n": 24,
+    "exact_value_present": 20,
+    "strict_correct": 16
+  }
+}

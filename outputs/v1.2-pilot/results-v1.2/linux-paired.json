@@ -1,0 +1,30 @@
+{
+  "L1\u2192L3 simple": {
+    "n": 7,
+    "both_correct": 4,
+    "both_wrong": 3,
+    "b_fixes": 0,
+    "b_regresses": 0
+  },
+  "L1\u2192L3 multi": {
+    "n": 14,
+    "both_correct": 3,
+    "both_wrong": 11,
+    "b_fixes": 0,
+    "b_regresses": 0
+  },
+  "L2\u2192L3 simple": {
+    "n": 7,
+    "both_correct": 4,
+    "both_wrong": 3,
+    "b_fixes": 0,
+    "b_regresses": 0
+  },
+  "L2\u2192L3 multi": {
+    "n": 14,
+    "both_correct": 1,
+    "both_wrong": 11,
+    "b_fixes": 2,
+    "b_regresses": 0
+  }
+}

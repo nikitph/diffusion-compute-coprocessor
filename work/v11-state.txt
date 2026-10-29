@@ -1,0 +1,4 @@
+COMPLETE. Main v1.1 experiment: 2160 expanded arithmetic records, 480 block-64 records, 101 Linux records. All original 45 canonical + 5 legacy repeats exact. Optional cross-host repeat aborted at model reload (0 samples) due storage-page-read stall; explicitly documented.
+Both own Runpod pods EXITED: replacement hex6gc4ufd8xt6 stopped after verified backup, original26i6z57kcsek7x already stopped. GPU compute ended; persistent disks60+80GB retained and billable. Do not restart without new user authorization.
+Final deliverables: outputs/v1.1-pilot/RESULTS.md and outputs/diffusion-experiment-complete-2026-10-29.zip. Verbatim remote snapshot hashes verified52files, local executed source matches12files. Archive manifest and verification in v1.1-pilot.
+Local sync stopped, reverse tunnel ended, own Linux gateway stopped. No fine-tuning. Final archive verified (288 files); goal complete.

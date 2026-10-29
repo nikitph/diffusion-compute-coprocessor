@@ -1,0 +1,5 @@
+torch==2.8.0+cu128
+transformers==5.2.0
+accelerate==1.15.0
+einops==0.8.2
+triton==3.4.0

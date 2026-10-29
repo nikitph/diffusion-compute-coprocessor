@@ -1,0 +1,402 @@
+[
+  {
+    "id": 0,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_0.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_0.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "8213293dbc09"
+  },
+  {
+    "id": 1,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_1.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_1.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "6fbed9be80ce"
+  },
+  {
+    "id": 2,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_2.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_2.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "90f8790c8b0c"
+  },
+  {
+    "id": 3,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_3.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_3.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "743c6b88f634"
+  },
+  {
+    "id": 4,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_4.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_4.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "9f9a4a2995d5"
+  },
+  {
+    "id": 5,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_5.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_5.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "d9fcca2c6b07"
+  },
+  {
+    "id": 6,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_6.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_6.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "db20058ac522"
+  },
+  {
+    "id": 7,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_7.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_7.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "cdd0cb3a51af"
+  },
+  {
+    "id": 8,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "bb5ae3d2243c"
+  },
+  {
+    "id": 9,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "573427b19917"
+  },
+  {
+    "id": 10,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'246737373399065900665901').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'246737373399065900665901').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "558341ef55fd"
+  },
+  {
+    "id": 11,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'104269552900811774819014').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'104269552900811774819014').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "43979fc95514"
+  },
+  {
+    "id": 12,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'1078192749862461687222668').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'1078192749862461687222668').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "a9db480dfe06"
+  },
+  {
+    "id": 13,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'253881175174311777705801').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'253881175174311777705801').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "a3ec20ba4f4a"
+  },
+  {
+    "id": 14,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'823961414665072589281085').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'823961414665072589281085').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "50bf05218aa6"
+  },
+  {
+    "id": 15,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'589580005433875059504417').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'589580005433875059504417').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "1f4e9d710310"
+  },
+  {
+    "id": 16,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_0.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_0.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "-57606"
+  },
+  {
+    "id": 17,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_1.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_1.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "32181"
+  },
+  {
+    "id": 18,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_2.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_2.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "21824"
+  },
+  {
+    "id": 19,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_3.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_3.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "34190"
+  },
+  {
+    "id": 20,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_4.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_4.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "26425"
+  },
+  {
+    "id": 21,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_5.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_5.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "4248"
+  },
+  {
+    "id": 22,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_6.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_6.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "-39448"
+  },
+  {
+    "id": 23,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_7.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_7.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "-41761"
+  }
+]

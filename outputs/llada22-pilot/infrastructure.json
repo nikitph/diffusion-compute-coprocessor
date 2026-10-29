@@ -1,0 +1,9 @@
+{
+  "pod_id": "26i6z57kcsek7x",
+  "status_at_check": "RUNNING",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_compute_usd_per_hour": 1.79,
+  "persistent_workspace_gb": 80,
+  "retain": true,
+  "reason": "Explicit user instruction not to release GPU"
+}

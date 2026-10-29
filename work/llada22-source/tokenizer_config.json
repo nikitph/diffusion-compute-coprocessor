@@ -1,0 +1,145 @@
+{
+  "added_tokens_decoder": {
+    "156891": {
+      "content": "<|startoftext|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156892": {
+      "content": "<|endoftext|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156893": {
+      "content": "[CLS]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156894": {
+      "content": "[gMASK]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156895": {
+      "content": "<|mask|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156896": {
+      "content": "<tools>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156897": {
+      "content": "</tools>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156898": {
+      "content": "<think>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156899": {
+      "content": "</think>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156900": {
+      "content": "<|role_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "156901": {
+      "content": "<|tool_calls_section_begin|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156902": {
+      "content": "<|tool_calls_section_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156903": {
+      "content": "<|tool_call_begin|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156904": {
+      "content": "<|tool_call_argument_begin|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "156905": {
+      "content": "<|tool_call_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    }
+  },
+  "add_bos_token": false,
+  "add_eos_token": false,
+  "bos_token": "<|startoftext|>",
+  "clean_up_tokenization_spaces": false,
+  "cls_token": "[CLS]",
+  "eos_token": "<|endoftext|>",
+  "mask_token": "<|mask|>",
+  "fast_tokenizer": true,
+  "gmask_token": "[gMASK]",
+  "merges_file": null,
+  "model_max_length": 262144,
+  "pad_token": "<|endoftext|>",
+  "tokenizer_class": "CustomFastTokenizer",
+  "auto_map": {
+    "AutoTokenizer": [
+      "tokenization_llada2.CustomFastTokenizer",
+      null
+    ]
+  },
+  "trust_remote_code": true,
+  "vocab_file": null
+}

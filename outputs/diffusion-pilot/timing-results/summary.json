@@ -1,0 +1,42 @@
+{
+  "direct/base": {
+    "n": 18,
+    "correct": 12,
+    "accuracy": 0.6666666666666666
+  },
+  "direct/mid_0.25": {
+    "n": 18,
+    "correct": 13,
+    "accuracy": 0.7222222222222222
+  },
+  "direct/mid_0.5": {
+    "n": 18,
+    "correct": 13,
+    "accuracy": 0.7222222222222222
+  },
+  "direct/posthoc_equations": {
+    "n": 18,
+    "correct": 18,
+    "accuracy": 1.0
+  },
+  "dependent/base": {
+    "n": 18,
+    "correct": 17,
+    "accuracy": 0.9444444444444444
+  },
+  "dependent/mid_0.25": {
+    "n": 18,
+    "correct": 14,
+    "accuracy": 0.7777777777777778
+  },
+  "dependent/mid_0.5": {
+    "n": 18,
+    "correct": 14,
+    "accuracy": 0.7777777777777778
+  },
+  "dependent/posthoc_equations": {
+    "n": 18,
+    "correct": 17,
+    "accuracy": 0.9444444444444444
+  }
+}

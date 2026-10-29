@@ -1,0 +1,1 @@
+{"pod_id":"26i6z57kcsek7x","gpu":"NVIDIA A100-SXM4-80GB","gpu_hourly_usd":1.79,"retained_by_user_request":true,"gateway_host":"local Mac via Linux Docker","gateway_bind":"127.0.0.1:18765","gpu_side_tunnel_bind":"127.0.0.1:18766","container_network":"none"}

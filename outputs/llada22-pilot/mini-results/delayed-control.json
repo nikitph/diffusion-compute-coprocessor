@@ -1,0 +1,412 @@
+{
+  "id": 1,
+  "kind": "file_lookup",
+  "condition": "async",
+  "first_text": "<|tool_calls_section_begin|><|tool_call_begin|>functions.read_file:0<|tool_call_argument_begin|>{\"path\": \"lookup/item_1.txt\", \"offset\": 0, \"length\": 12}<|tool_call_end|><|tool_calls_section_end|><|role_end|><|endoftext|>",
+  "text": "The file contains exactly 12 bytes, which matches the requested length. The value is returned.",
+  "expected": "6fbed9be80ce",
+  "prediction": "The file contains exactly 12 bytes, which matches the requested length. The value is returned",
+  "correct": false,
+  "contains_expected": false,
+  "calls": [
+    {
+      "id": "functions.read_file:0",
+      "call": {
+        "name": "read_file",
+        "args": {
+          "path": "lookup/item_1.txt",
+          "offset": 0,
+          "length": 12
+        }
+      },
+      "start": 28,
+      "end": 169
+    }
+  ],
+  "valid_native_call": true,
+  "seconds": 18.354155357927084,
+  "first": {
+    "seconds": 2.6035646609961987,
+    "forward_calls": 8,
+    "hook_seconds": 0.005359494010917842,
+    "block_steps": [
+      5,
+      3
+    ],
+    "locks": 0,
+    "lock_violations": 0,
+    "events": [],
+    "residual_masks": 0,
+    "structural_edits_disabled": true
+  },
+  "second": {
+    "seconds": 15.748117810930125,
+    "forward_calls": 42,
+    "hook_seconds": 0.0034798168344423175,
+    "block_steps": [
+      32,
+      10
+    ],
+    "locks": 1,
+    "lock_violations": 0,
+    "events": [
+      {
+        "type": "lock",
+        "label": "native_tool_result",
+        "step": 37,
+        "start": 209,
+        "end": 217
+      }
+    ],
+    "residual_masks": 0,
+    "structural_edits_disabled": true
+  },
+  "tool_result": {
+    "ok": true,
+    "output": "6fbed9be80ce",
+    "gateway_seconds": 0.8253534170798957,
+    "sandbox": {
+      "network": "none",
+      "fresh_container": true,
+      "persistent_write": false
+    }
+  },
+  "external_wait_seconds": 0.0,
+  "finalization_seconds": 0.0003099300665780902,
+  "result_received": true,
+  "result_injected_answer_step": 37,
+  "events": [
+    {
+      "type": "barrier",
+      "step": 0,
+      "seconds": 4.33996319770813e-06,
+      "pending": 0
+    },
+    {
+      "type": "barrier",
+      "step": 1,
+      "seconds": 4.269997589290142e-06,
+      "pending": 0
+    },
+    {
+      "type": "barrier",
+      "step": 2,
+      "seconds": 1.920037902891636e-06,
+      "pending": 0
+    },
+    {
+      "type": "barrier",
+      "step": 3,
+      "seconds": 2.0300503820180893e-06,
+      "pending": 0
+    },
+    {
+      "type": "barrier",
+      "step": 4,
+      "seconds": 1.9599683582782745e-06,
+      "pending": 0
+    },
+    {
+      "type": "barrier",
+      "step": 5,
+      "seconds": 1.369975507259369e-06,
+      "pending": 0
+    },
+    {
+      "type": "submit",
+      "anchor": "functions.read_file:0",
+      "step": 5,
+      "call": {
+        "name": "read_file",
+        "args": {
+          "path": "lookup/item_1.txt",
+          "offset": 0,
+          "length": 12
+        }
+      },
+      "committed": false,
+      "effect": false
+    },
+    {
+      "type": "barrier",
+      "step": 5,
+      "seconds": 0.0018279750365763903,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 6,
+      "seconds": 5.109095945954323e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 7,
+      "seconds": 4.01100842282176e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 8,
+      "seconds": 2.8340029530227184e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 8,
+      "seconds": 1.864996738731861e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 8,
+      "seconds": 6.470002699643373e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 9,
+      "seconds": 6.659002974629402e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 10,
+      "seconds": 5.6969933211803436e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 11,
+      "seconds": 4.3940963223576546e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 12,
+      "seconds": 4.1749910451471806e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 13,
+      "seconds": 4.2750034481287e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 14,
+      "seconds": 3.808003384619951e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 15,
+      "seconds": 4.600000102072954e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 16,
+      "seconds": 3.9439997635781765e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 17,
+      "seconds": 4.3650041334331036e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 18,
+      "seconds": 3.590004052966833e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 19,
+      "seconds": 4.195107612758875e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 20,
+      "seconds": 4.029995761811733e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 21,
+      "seconds": 3.855000250041485e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 22,
+      "seconds": 4.004000220447779e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 23,
+      "seconds": 4.6810018830001354e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 24,
+      "seconds": 4.187994636595249e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 25,
+      "seconds": 4.016002640128136e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 26,
+      "seconds": 3.883999306708574e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 27,
+      "seconds": 3.5259989090263844e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 28,
+      "seconds": 4.07899497076869e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 29,
+      "seconds": 3.887002822011709e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 30,
+      "seconds": 3.869005013257265e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 31,
+      "seconds": 3.630004357546568e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 32,
+      "seconds": 4.3740030378103256e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 33,
+      "seconds": 4.196993540972471e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 34,
+      "seconds": 3.929995000362396e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 35,
+      "seconds": 3.9460021071136e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 36,
+      "seconds": 3.6899931728839874e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 37,
+      "seconds": 3.9439997635781765e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 38,
+      "seconds": 3.890006337314844e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 39,
+      "seconds": 3.4190015867352486e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 39,
+      "seconds": 2.145103644579649e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 40,
+      "seconds": 4.329998046159744e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 41,
+      "seconds": 3.774999640882015e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 42,
+      "seconds": 4.0740007534623146e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 43,
+      "seconds": 4.027003888040781e-05,
+      "pending": 1
+    },
+    {
+      "type": "barrier",
+      "step": 44,
+      "seconds": 4.1400082409381866e-05,
+      "pending": 1
+    },
+    {
+      "type": "completion",
+      "anchor": "functions.read_file:0",
+      "step": 45,
+      "submit_step": 5,
+      "steps_to_land": 40,
+      "result": {
+        "ok": true,
+        "output": "6fbed9be80ce",
+        "gateway_seconds": 0.8253534170798957,
+        "sandbox": {
+          "network": "none",
+          "fresh_container": true,
+          "persistent_write": false
+        }
+      }
+    },
+    {
+      "type": "barrier",
+      "step": 45,
+      "seconds": 6.421003490686417e-05,
+      "pending": 0
+    }
+  ]
+}

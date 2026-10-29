@@ -1,0 +1,17 @@
+{
+  "D1": {
+    "n": 24,
+    "returned_integer_present": 21,
+    "strict_correct": 11
+  },
+  "D2": {
+    "n": 24,
+    "returned_integer_present": 24,
+    "strict_correct": 20
+  },
+  "D3": {
+    "n": 24,
+    "returned_integer_present": 24,
+    "strict_correct": 12
+  }
+}

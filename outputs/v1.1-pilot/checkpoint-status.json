@@ -1,0 +1,21 @@
+{
+  "status": "restoring_on_replacement_pod",
+  "provider_status": "EXITED",
+  "pod_id": "26i6z57kcsek7x",
+  "restart_error_http": 402,
+  "restart_error": "Your account balance is too low to rent a pod. Please add funds to your account.",
+  "full_240_run_started": false,
+  "mid64_run_started": false,
+  "linux27_model_run_started": false,
+  "canonical_smoke_records": 324,
+  "canonical_repeat_matches": {
+    "n": 45,
+    "identical": 45,
+    "mismatches": []
+  },
+  "legacy_repeat_matches": 5,
+  "legacy_repeat_n": 5,
+  "variant_delay_records_saved": 44,
+  "contract_correction": "Local pilot.py and finish_run.py clarify calc supports +,-,* only; not yet uploaded or run after SSH became unavailable.",
+  "replacement_pod": "hex6gc4ufd8xt6"
+}

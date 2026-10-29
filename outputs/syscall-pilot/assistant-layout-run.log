@@ -1,0 +1,58 @@
+/tmp/pilot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:11<00:55, 11.10s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:23<00:47, 11.85s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:44<00:47, 15.96s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [01:05<00:35, 17.98s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [01:19<00:16, 16.56s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:31<00:00, 14.87s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:31<00:00, 15.17s/it]
+/tmp/pilot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{"offset": 0, "condition": "base", "correct": 0, "seconds": 9.37, "locked": 0, "stalls": 0}
+{"offset": 0, "condition": "async", "correct": 0, "seconds": 9.42, "locked": 4, "stalls": 0}
+{"offset": 0, "condition": "sync", "correct": 0, "seconds": 11.51, "locked": 4, "stalls": 1}
+{"offset": 0, "condition": "async_delay20", "correct": 0, "seconds": 9.48, "locked": 4, "stalls": 0}
+{"offset": 0, "condition": "post_generation_restart", "correct": 0, "seconds": 9.46, "locked": 4, "stalls": 0}
+{"offset": 4, "condition": "base", "correct": 0, "seconds": 9.47, "locked": 0, "stalls": 0}
+{"offset": 4, "condition": "async_delay20", "correct": 0, "seconds": 9.49, "locked": 4, "stalls": 0}
+{"offset": 4, "condition": "sync", "correct": 0, "seconds": 11.45, "locked": 4, "stalls": 1}
+{"offset": 4, "condition": "async", "correct": 0, "seconds": 9.46, "locked": 4, "stalls": 0}
+{"offset": 4, "condition": "post_generation_restart", "correct": 0, "seconds": 9.47, "locked": 4, "stalls": 0}
+{"offset": 8, "condition": "base", "correct": 0, "seconds": 12.19, "locked": 0, "stalls": 0}
+{"offset": 8, "condition": "async", "correct": 2, "seconds": 12.2, "locked": 4, "stalls": 0}
+{"offset": 8, "condition": "sync", "correct": 2, "seconds": 13.7, "locked": 4, "stalls": 1}
+{"offset": 8, "condition": "async_delay20", "correct": 2, "seconds": 12.2, "locked": 4, "stalls": 0}
+{"offset": 8, "condition": "post_generation_restart", "correct": 2, "seconds": 12.17, "locked": 4, "stalls": 0}
+{"offset": 12, "condition": "base", "correct": 0, "seconds": 12.22, "locked": 0, "stalls": 0}
+{"offset": 12, "condition": "async_delay20", "correct": 1, "seconds": 12.24, "locked": 4, "stalls": 0}
+{"offset": 12, "condition": "sync", "correct": 1, "seconds": 13.75, "locked": 4, "stalls": 1}
+{"offset": 12, "condition": "async", "correct": 1, "seconds": 12.25, "locked": 4, "stalls": 0}
+{"offset": 12, "condition": "post_generation_restart", "correct": 1, "seconds": 12.21, "locked": 4, "stalls": 0}
+{"offset": 16, "condition": "base", "correct": 0, "seconds": 10.21, "locked": 0, "stalls": 0}
+{"offset": 16, "condition": "async", "correct": 4, "seconds": 10.23, "locked": 4, "stalls": 0}
+{"offset": 16, "condition": "sync", "correct": 4, "seconds": 11.71, "locked": 4, "stalls": 1}
+{"offset": 16, "condition": "async_delay20", "correct": 4, "seconds": 10.24, "locked": 4, "stalls": 0}
+{"offset": 16, "condition": "post_generation_restart", "correct": 4, "seconds": 10.21, "locked": 4, "stalls": 0}
+{"offset": 20, "condition": "base", "correct": 0, "seconds": 10.22, "locked": 0, "stalls": 0}
+{"offset": 20, "condition": "async_delay20", "correct": 4, "seconds": 10.23, "locked": 4, "stalls": 0}
+{"offset": 20, "condition": "sync", "correct": 4, "seconds": 11.94, "locked": 4, "stalls": 1}
+{"offset": 20, "condition": "async", "correct": 4, "seconds": 10.24, "locked": 4, "stalls": 0}
+{"offset": 20, "condition": "post_generation_restart", "correct": 4, "seconds": 10.18, "locked": 4, "stalls": 0}
+{
+  "async": {
+    "correct": 11,
+    "n": 24
+  },
+  "async_delay20": {
+    "correct": 11,
+    "n": 24
+  },
+  "base": {
+    "correct": 0,
+    "n": 24
+  },
+  "post_generation_restart": {
+    "correct": 11,
+    "n": 24
+  },
+  "sync": {
+    "correct": 11,
+    "n": 24
+  }
+}

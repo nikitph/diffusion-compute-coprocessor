@@ -1,0 +1,11 @@
+{
+  "model": "GSAI-ML/LLaDA-8B-Instruct",
+  "revision": "08b83a6feb34df1a6011b80c3c00c7563e963b07",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "torch": "2.8.0+cu128",
+  "steps": 64,
+  "result_slot": 128,
+  "trigger_step": 16,
+  "call_mode": "supplied immutable structured calls",
+  "gateway": "Linux Docker on Mac via SSH reverse tunnel"
+}

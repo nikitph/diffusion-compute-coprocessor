@@ -1,0 +1,56 @@
+{
+  "report": "/Users/nikitph/Documents/Codex/2026-10-28/can/outputs/v1.1-pilot/RESULTS.md",
+  "full_records": 2160,
+  "mid_records": 480,
+  "linux_records": 101,
+  "safety": {
+    "lock_violations": 0,
+    "stray_effects": 0,
+    "stale_completions": 1,
+    "max_remasks_per_task": 2,
+    "exhausted_sampler_stages": 0,
+    "pending_sampler_stages": 0,
+    "residual_mask_tokens": 551,
+    "records_with_residual_masks": 25,
+    "residual_mask_records_scored_correct": 0,
+    "unexpected_workspace_changes": [],
+    "literal_write_contents_exact": true,
+    "stale_completions_same_arithmetic": 1,
+    "kernel_outputs_independently_rechecked": 1317,
+    "injected_operand_mismatches": 1,
+    "executed_source_files_verified": 12,
+    "executed_source_mismatches": []
+  },
+  "gates": {
+    "A3": {
+      "tests": {
+        "firing_at_least_70pct": true,
+        "use_at_least_70pct": false,
+        "regressions_at_most_2pct": false,
+        "direct_improvement_p_below_005": true,
+        "midblock_at_least_30pct": true,
+        "late_correct_at_least_50pct": true,
+        "remask_budget_respected": true,
+        "safety_zero_including_stale": false
+      },
+      "all_pass": false,
+      "late_correct_rate": 0.8333333333333334,
+      "late_n": 6
+    },
+    "A4": {
+      "tests": {
+        "firing_at_least_70pct": true,
+        "use_at_least_70pct": true,
+        "regressions_at_most_2pct": false,
+        "direct_improvement_p_below_005": true,
+        "midblock_at_least_30pct": true,
+        "late_correct_at_least_50pct": true,
+        "remask_budget_respected": true,
+        "safety_zero_including_stale": false
+      },
+      "all_pass": false,
+      "late_correct_rate": 1.0,
+      "late_n": 6
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "hidden",
+    "id": 0,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "hidden",
+    "id": 1,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "hidden",
+    "id": 2,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "hidden",
+    "id": 3,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "hidden",
+    "id": 4,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "hidden",
+    "id": 5,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 0,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 1,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 2,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 3,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 4,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  },
+  {
+    "kind": "arithmetic",
+    "id": 5,
+    "n": 4,
+    "identical": true,
+    "identical_outputs": true
+  }
+]

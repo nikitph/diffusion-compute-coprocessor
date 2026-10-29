@@ -1,0 +1,19 @@
+[
+  {
+    "loaded": true,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "allocated_gb": 32.511298048
+  },
+  {
+    "prompt": "Reply exactly READY.",
+    "seconds": 1.0342335969908163,
+    "text": "READY.<|role_end|><|endoftext|>",
+    "prompt_tokens": 13
+  },
+  {
+    "prompt": "Use read_file to read lookup/item_0.txt with offset 0 and length 128. Do not guess its contents.",
+    "seconds": 5.471945359953679,
+    "text": "The user wants me to read a file called \"lookup/item_0.txt\" with offset 0 and length 128. I should use the read_file function as specified.\nI'll read the lookup/item_0.txt file with offset 0 and length 128 as requested.<|tool_calls_section_begin|><|tool_call_begin|>functions.read_file:0<|tool_call_argument_begin|>{\"path\": \"lookup/item_0.txt\", \"offset\": 0, \"length\": 128}<|tool_call_end|><|tool_calls_section_end|><|role_end|><|endoftext|>",
+    "prompt_tokens": 95
+  }
+]

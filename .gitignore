@@ -1,0 +1,17 @@
+# Local runtimes and generated caches
+**/venv/
+**/test-venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+._*
+*.tmp
+
+# Local connection records and credentials
+work/known_hosts
+.env
+.env.*
+!.env.example
+*.pem
+*.key

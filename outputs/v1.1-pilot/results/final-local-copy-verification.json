@@ -1,0 +1,11 @@
+{
+  "verified_utc": "2026-10-28T22:49:46.882369+00:00",
+  "pod_id": "hex6gc4ufd8xt6",
+  "remote_files_verified": 52,
+  "all_remote_hashes_match_local": true,
+  "verbatim_remote_snapshot": "remote-snapshot/",
+  "snapshot_hashes_reverified": true,
+  "locally_regenerated_derived_files": [
+    "results/analysis.json"
+  ]
+}

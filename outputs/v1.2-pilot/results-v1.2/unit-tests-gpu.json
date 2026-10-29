@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "pause_state_exact": true,
+  "schedule_preserved": true,
+  "continuation_preserved": true,
+  "earlier_hole_repaired": true,
+  "delay_states_identical": true
+}

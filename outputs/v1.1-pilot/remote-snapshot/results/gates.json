@@ -1,0 +1,24 @@
+{
+  "strengthened": [
+    "A2",
+    "A3"
+  ],
+  "native_rates": {
+    "A2": {
+      "default": 0.3055555555555556,
+      "strengthened": 0.6388888888888888
+    },
+    "A3": {
+      "default": 0.3055555555555556,
+      "strengthened": 0.6388888888888888
+    }
+  },
+  "dropped": [
+    "A5"
+  ],
+  "contract_clarified": true,
+  "repro_failed": [],
+  "A5_adoption": 0.0,
+  "promote_A7": true,
+  "F3_delayed_exact_correct": 17
+}

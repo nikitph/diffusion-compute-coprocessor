@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "kind": "file_lookup",
+    "text": "<sys>{\"name\":\"read_file\",\"args\":{\"path\":\"lookup/item_0.txt\",\"offset\":0,\"length\":12}}</sys>",
+    "valid_envelope": true,
+    "expected_call_name": "read_file",
+    "correct_call_name": true,
+    "execution": {
+      "ok": true,
+      "output": "8213293dbc09",
+      "gateway_seconds": 0.3974324169103056,
+      "sandbox": {
+        "network": "none",
+        "fresh_container": true,
+        "persistent_write": false
+      }
+    },
+    "tool_answer_correct": true
+  },
+  {
+    "id": 1,
+    "kind": "file_lookup",
+    "text": "<sys>{\"name\":\"read_file\",\"args\":{\"path\":\"lookup/item_1.txt\",\"offset\":0,\"length\":12}}</sys>",
+    "valid_envelope": true,
+    "expected_call_name": "read_file",
+    "correct_call_name": true,
+    "execution": {
+      "ok": true,
+      "output": "6fbed9be80ce",
+      "gateway_seconds": 0.42907399986870587,
+      "sandbox": {
+        "network": "none",
+        "fresh_container": true,
+        "persistent_write": false
+      }
+    },
+    "tool_answer_correct": true
+  },
+  {
+    "id": 8,
+    "kind": "code_output",
+    "text": "<sys>{\"name\":\"run\",\"args\":{\"cmd\":[\"python3\",\"-c\",\"import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])\"]}}",
+    "valid_envelope": false,
+    "expected_call_name": "run",
+    "correct_call_name": false,
+    "execution": null,
+    "tool_answer_correct": false
+  },
+  {
+    "id": 9,
+    "kind": "code_output",
+    "text": "<sys>{\"name\":\"run\",\"args\":{\"cmd\":[\"python3\",\"-c\",\"CODE\"]}}</sys>",
+    "valid_envelope": true,
+    "expected_call_name": "run",
+    "correct_call_name": true,
+    "execution": {
+      "ok": false,
+      "output": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nNameError: name 'CODE' is not defined\n",
+      "exit_code": 1,
+      "truncated_bytes": false,
+      "gateway_seconds": 0.4194774169009179,
+      "sandbox": {
+        "network": "none",
+        "fresh_container": true,
+        "persistent_write": false
+      }
+    },
+    "tool_answer_correct": false
+  },
+  {
+    "id": 16,
+    "kind": "compute_file",
+    "text": "<sys>{\"name\":\"read_file\",\"args\":{\"path\":\"tables/table_0.csv\",\"offset\":0,\"length\":0}}</sys>",
+    "valid_envelope": true,
+    "expected_call_name": "run",
+    "correct_call_name": false,
+    "execution": {
+      "ok": true,
+      "output": "",
+      "gateway_seconds": 0.4133862080052495,
+      "sandbox": {
+        "network": "none",
+        "fresh_container": true,
+        "persistent_write": false
+      }
+    },
+    "tool_answer_correct": false
+  },
+  {
+    "id": 17,
+    "kind": "compute_file",
+    "text": "<sys>{\"name\":\"read_file\",\"args\":{\"path\":\"tables/table_1.csv\",\"offset\":0,\"length\":0}}</sys>",
+    "valid_envelope": true,
+    "expected_call_name": "run",
+    "correct_call_name": false,
+    "execution": {
+      "ok": true,
+      "output": "",
+      "gateway_seconds": 0.39253866695798934,
+      "sandbox": {
+        "network": "none",
+        "fresh_container": true,
+        "persistent_write": false
+      }
+    },
+    "tool_answer_correct": false
+  }
+]

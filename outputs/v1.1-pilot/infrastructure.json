@@ -1,0 +1,16 @@
+{
+  "pod_id": "hex6gc4ufd8xt6",
+  "status": "EXITED",
+  "compute_stopped": true,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "compute_usd_per_hour_when_running": 1.79,
+  "persistent_gb": 60,
+  "old_pod_id": "26i6z57kcsek7x",
+  "old_pod_status": "EXITED",
+  "old_persistent_gb": 80,
+  "storage_preserved": true,
+  "storage_still_billable": true,
+  "shutdown_after_verified_local_backup": true,
+  "verification": "Runpod stop returned EXITED; subsequent get_pod also returned EXITED with only start/terminate actions.",
+  "supplemental_cross_host_repeat": "Not completed: model reload stalled on storage reads. Main experiment and original smoke repeat checks completed."
+}

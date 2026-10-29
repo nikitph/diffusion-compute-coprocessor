@@ -1,0 +1,25 @@
+{
+  "timestamp": 1793243675.892375,
+  "files": {
+    "PROTOCOL.md": "efeef6c6569ab7adaf20e53e8f084f3e7922eef8fc83d17ce3dc17866d0cf4f3",
+    "arithmetic_hook.py": "eeef0d30d2ca55840a427728abe1ca1c5d5db09d5504d229c76b382a50b923bc",
+    "workspace-before.json": "a1adbf99ac273a1aa5717b4965f037f4fdd4a546b3a68b51269fa9e29be8d230",
+    "linux-tasks.json": "f8c99404b3ab6a7d2beb2fbe7e84659204d0081883b9e56450df1f0641f7ac09",
+    "event_sampler.py": "e34eb4a9edfd19baab74bec365f797c9974d9a505287b2e0be5d63c6e5577a88",
+    "call_parser.py": "ca9a93da873c61c8be0719a2f6b11ed5ae26dbc6f4adb4aa21c392685841cfd0",
+    "wait_adapter.py": "6c80cc09f8728b17c0112f8bb3d6fad0959f7073565df1e2f489fbbcc355e7bb",
+    "run_v12.py": "c585048d30f6a968357cd2b4c5c43b02d53fe83a14f56590d6d7c3d5fdfd7a2d",
+    "v11-reference.json": "21514e217ef99061f3cf861dd3b49a299aeebce4e9adfe2756d632fbdaaff965",
+    "native_tools.py": "34fb7ee92af50dc873e3582423bad96eb714e799e0e6ff95370f4052d95ae5e4",
+    "test_wait.py": "25e10567d05f81c4e609fe6b709962794c5f231b4dca652323c29e2a87dbb025",
+    "async_engine.py": "77f307d6112ad465a48a9d6fcdebd92e266fc0a207e8d943cc86a524f78da966",
+    "gpu_arithmetic.py": "fcb70f7ba8ac2877da107757bf10de5858e73a38cf657e36d18f29d62cb1981d",
+    "arith_reference.py": "f195293fa084047a985aa1f061df293d3f4291defc40bb0afb50e591c8bece4d",
+    "requirements.txt": "a96e225f85c0b977f01c8d6a00ee2882ef13214087a2605cbe63a167aa332af5",
+    "local-processes.json": "c23ba9968f2bc4b873094ccefd889c00782f7997459f0d488ee1617db83d57c1",
+    "brief.txt": "dc329fafe33993abb538e43e46c7aa7be075701ecce629013f7f6d36c7ca3b5c",
+    "linux_runner.py": "7acdf13a66930a36d18679de2c445f09a03010fb082897cd8bb65c14caccb01d",
+    "pilot.py": "50f38f574d942f9f0ab75f1a980783e0d613ef9f8b405538a616adaed3092b99",
+    "old_sampler.py": "0301578f8f001e38902c837ec6e41e17252eb4367432eb7b2fe98d6e44751a6a"
+  }
+}

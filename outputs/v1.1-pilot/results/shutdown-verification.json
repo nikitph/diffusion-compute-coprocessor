@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-10-28T22:55:30.950234+00:00",
+  "pod_id": "hex6gc4ufd8xt6",
+  "stop_response_status": "EXITED",
+  "subsequent_read_status": "EXITED",
+  "allowed_actions_after_stop": [
+    "start",
+    "terminate"
+  ],
+  "old_pod_id": "26i6z57kcsek7x",
+  "old_pod_status": "EXITED",
+  "compute_stopped": true,
+  "persistent_storage_retained": true,
+  "persistent_storage_remains_billable": true
+}

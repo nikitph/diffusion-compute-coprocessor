@@ -1,0 +1,181 @@
+[
+  {
+    "id": 205,
+    "calls": 4,
+    "all_calls_before_commit": true,
+    "links": [
+      {
+        "next_path": "v11/4a9449b6465de27f.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 13,
+        "next_dispatch_step": 24
+      },
+      {
+        "next_path": "v11/27c1f628acb3c231.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 24,
+        "next_dispatch_step": 31
+      },
+      {
+        "next_path": "v11/8600fdff0f9639be.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 31,
+        "next_dispatch_step": 41
+      }
+    ],
+    "arrival_states": [
+      {
+        "type": "arrival",
+        "result": "functions.read_file:0",
+        "step": 13,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "5381250bbc2773a13000dd59b8c7b4a0b4ba7aa2dc41708196aa191afc0d8df8"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:1",
+        "step": 24,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "7511f54cb5246e391fa7ca6c462d5ff99655b23d685f56117fbb7c890a08a440"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:2",
+        "step": 31,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "1a0783f8c962b55066193c2d09627b714d756e572dea74a8442bcb15f21b9e47"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:3",
+        "step": 41,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "9c9ab031b5f3f58e69e91454f8641b16cac64390b8e8a6b0fdb140aa9bcf7c4e"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "calls": 3,
+    "all_calls_before_commit": true,
+    "links": [
+      {
+        "next_path": "v11/4a23684780574200.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 14,
+        "next_dispatch_step": 25
+      },
+      {
+        "next_path": "v11/ab17b426b9d0f83c.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 25,
+        "next_dispatch_step": 35
+      }
+    ],
+    "arrival_states": [
+      {
+        "type": "arrival",
+        "result": "functions.read_file:0",
+        "step": 14,
+        "local_step": 1,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "8a7094b310764a992f0bbc962bad8aafe179bf21780f94d023cfbeac95d37faa"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:1",
+        "step": 25,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "4c45cf2939a74841fff25d7ee65f0d8b0b0cef949ebc387c78ee6822e3169d25"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:2",
+        "step": 35,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "c39cbe8f7e318889431bcbd72a446bc0caceb284fd526c25005c97a6d86579d0"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "calls": 3,
+    "all_calls_before_commit": true,
+    "links": [
+      {
+        "next_path": "v11/130460346dd27470.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 11,
+        "next_dispatch_step": 22
+      },
+      {
+        "next_path": "v11/04928865a6fe4d8a.txt",
+        "present_in_previous_result": true,
+        "previous_dispatch_step": 22,
+        "next_dispatch_step": 29
+      }
+    ],
+    "arrival_states": [
+      {
+        "type": "arrival",
+        "result": "functions.read_file:0",
+        "step": 11,
+        "local_step": 2,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "ba10cb6c9a0bef0ae6f099bdff124c42b74ca6e9388d1e391041047926b2b9c7"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:1",
+        "step": 22,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "d72ef8813247e5af4ac9f08ee87ae90df9dc5dcaa89bd217536aa7465cd41843"
+      },
+      {
+        "type": "arrival",
+        "result": "functions.read_file:2",
+        "step": 29,
+        "local_step": 0,
+        "midblock": false,
+        "midblock_before_eos": false,
+        "remasked_tokens": 0,
+        "preserved_schedule": true,
+        "lock_state": "e67037397d83e513724312a5114b44c0b76aa3fb6c0884b2adca2586d7f3aa23"
+      }
+    ]
+  }
+]

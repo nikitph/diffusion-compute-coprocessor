@@ -1,0 +1,159 @@
+{#-
+  LLaDA22 chat template — NO-THINK variant.
+  Usage:
+    start_header: "<role>assistant</role>"
+    end_header: "<|role_end|>"
+    end_learnable_inclusive: true
+#}
+
+{#- Message Content Rendering ============================================== #}
+{%- macro render_content(content) -%}
+    {%- if content is string -%}
+        {{- content -}}
+    {%- elif content is iterable and content is not mapping -%}
+        {%- for item in content -%}
+            {%- if item is mapping -%}
+                {%- if 'text' in item -%}
+                    {{- item.text -}}
+                {%- elif 'image' in item or 'image_url' in item or item.get('type') == 'image' -%}
+                    {{- raise_exception('Constraint Violation: Image data detected.') -}}
+                {%- elif 'video' in item or item.get('type') == 'video' -%}
+                    {{- raise_exception('Constraint Violation: Video data detected.') -}}
+                {%- else -%}
+                    {{- raise_exception('Invalid mapping structure: Missing "text" key.') -}}
+                {%- endif -%}
+            {%- elif item is string -%}
+                {{- item -}}
+            {%- else -%}
+                {{- raise_exception('Invalid item type: Must be string or mapping.') -}}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- elif content is none or content is undefined -%}
+        {{- '' -}}
+    {%- else -%}
+        {{- raise_exception('Fatal error: Content must be a string, iterable, or None.') -}}
+    {%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_toolcalls(message, ns_tool) -%}
+    {{- '<|tool_calls_section_begin|>' -}}
+    {%- for tool_call in message.get('tool_calls', []) -%}
+        {%- set original_id = tool_call.get('id', '') -%}
+        {%- set func_name = tool_call.get('function', {}).get('name', 'unknown') -%}
+
+        {%- set tool_id = 'functions.' + func_name + ':' + ns_tool.index|string -%}
+
+        {%- set ns_tool.id_map = ns_tool.id_map + [[original_id, tool_id]] -%}
+        {%- set ns_tool.index = ns_tool.index + 1 -%}
+
+        {%- set args = tool_call.get('function', {}).get('arguments', '') -%}
+        {{- '<|tool_call_begin|>' + tool_id + '<|tool_call_argument_begin|>' -}}
+        {%- if args is string -%}
+            {{- args -}}
+        {%- else -%}
+            {{- args | tojson -}}
+        {%- endif -%}
+        {{- '<|tool_call_end|>' -}}
+    {%- endfor -%}
+    {{- '<|tool_calls_section_end|>' -}}
+{%- endmacro -%}
+
+{%- if not messages -%}
+    {{- raise_exception('No messages provided.') -}}
+{%- endif -%}
+
+{# 1. System Instruction, Model Identity & Tools Injection #}
+{%- set ns_sys = namespace(has_system=false, content='') -%}
+
+
+{%- if messages[0].role == 'system' -%}
+    {%- set ns_sys.has_system = true -%}
+    {%- if ns_sys.content -%}
+        {%- set ns_sys.content = ns_sys.content + '\n\n' -%}
+    {%- endif -%}
+    {%- set ns_sys.content = ns_sys.content + render_content(messages[0].content) -%}
+{%- endif -%}
+
+{%- if tools or ns_sys.content -%}
+    {{- '<role>system</role>' -}}
+
+    {%- if ns_sys.content -%}
+        {{- ns_sys.content -}}
+        {%- if tools -%}{{ '\n\n' }}{%- endif -%}
+    {%- endif -%}
+
+    {#- Tool Definition Rendering -#}
+    {%- if tools and tools is iterable and tools is not mapping -%}
+        {{- "<tools>\n" -}}
+        {%- if tools_ts_str -%}
+            {{- tools_ts_str -}}
+        {%- else -%}
+            {%- for tool in tools -%}
+                {{- tool | tojson(ensure_ascii=False) -}}{{ '\n' -}}
+            {%- endfor -%}
+        {%- endif -%}
+        {{- "</tools>\n" -}}
+    {%- endif -%}
+
+    {{- '<|role_end|>' -}}
+{%- endif -%}
+
+{# 2. Main Message Rendering Loop #}
+{%- set ns_tool = namespace(index=0, id_map=[]) -%}
+
+{%- for message in messages -%}
+    {# Skip the first System message as it is pre-rendered above #}
+    {%- if not (loop.first and message.role == 'system') -%}
+
+        {%- set content_text = render_content(message.content) -%}
+        {%- set role_name = message.get('name') or message.role -%}
+
+        {%- if message.role == 'user' or message.role == 'system' -%}
+            {{- '<role>' + role_name + '</role>' -}}
+            {{- content_text + '<|role_end|>' -}}
+
+        {%- elif message.role == 'assistant' -%}
+            {{- '<role>' + role_name + '</role>' -}}
+
+            {#- NO-THINK: completely ignore reasoning_content, strip <think> from content -#}
+            {%- set final_content = content_text -%}
+
+            {#- Strip embedded <think>...</think> from content if present -#}
+            {%- if '<think>' in final_content and '</think>' in final_content -%}
+                {%- set parts = final_content.split('</think>', 1) -%}
+                {%- set final_content = parts[1].strip() -%}
+            {%- endif -%}
+
+            {#- Output content directly, no think tags -#}
+            {%- if final_content -%}
+                {{- final_content -}}
+            {%- endif -%}
+
+            {%- if message.tool_calls -%}
+                {{- render_toolcalls(message, ns_tool) -}}
+            {%- endif -%}
+
+            {{- '<|role_end|>' -}}
+
+        {%- elif message.role == 'tool' -%}
+            {{- '<role>tool</role>' -}}
+            {%- set original_id = message.get('tool_call_id', '') -%}
+
+            {%- set ns_lookup = namespace(mapped_id=original_id) -%}
+            {%- for pair in ns_tool.id_map -%}
+                {%- if pair[0] == original_id -%}
+                    {%- set ns_lookup.mapped_id = pair[1] -%}
+                {%- endif -%}
+            {%- endfor -%}
+
+            {{- '## Return of ' + ns_lookup.mapped_id + '\n' -}}
+            {{- content_text + '\n<|role_end|>' -}}
+        {%- endif -%}
+
+    {%- endif -%}
+{%- endfor -%}
+
+{# 3. Generation Prompt Suffix — no think tag #}
+{%- if add_generation_prompt -%}
+    {{- '<role>assistant</role>' -}}
+{%- endif -%}

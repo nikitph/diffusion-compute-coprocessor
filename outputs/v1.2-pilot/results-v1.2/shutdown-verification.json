@@ -1,0 +1,19 @@
+{
+  "pods": [
+    {
+      "id": "hex6gc4ufd8xt6",
+      "status": "EXITED",
+      "runtime": null
+    },
+    {
+      "id": "26i6z57kcsek7x",
+      "status": "EXITED",
+      "runtime": null
+    }
+  ],
+  "verified_live": true,
+  "timestamp": 1793246381.194877,
+  "gpu_compute_stopped": true,
+  "persistent_disks_retained": true,
+  "storage_still_billable": true
+}

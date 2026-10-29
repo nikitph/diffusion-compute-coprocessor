@@ -1,0 +1,177 @@
+[
+  {
+    "stage": "full",
+    "id": 66,
+    "condition": "A4",
+    "residual_masks": 1,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 66,
+    "condition": "A7",
+    "residual_masks": 1,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 106,
+    "condition": "A3",
+    "residual_masks": 20,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 108,
+    "condition": "A3",
+    "residual_masks": 21,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 128,
+    "condition": "A3",
+    "residual_masks": 12,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 130,
+    "condition": "A3",
+    "residual_masks": 11,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 136,
+    "condition": "A3",
+    "residual_masks": 11,
+    "scored_correct": false
+  },
+  {
+    "stage": "full",
+    "id": 138,
+    "condition": "A3",
+    "residual_masks": 11,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 63,
+    "condition": "A3",
+    "residual_masks": 41,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 168,
+    "condition": "A3",
+    "residual_masks": 37,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 174,
+    "condition": "A3",
+    "residual_masks": 38,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 176,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 178,
+    "condition": "A3",
+    "residual_masks": 27,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 180,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 182,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 184,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 186,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 188,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 190,
+    "condition": "A3",
+    "residual_masks": 26,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 208,
+    "condition": "A3",
+    "residual_masks": 36,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 226,
+    "condition": "A3",
+    "residual_masks": 21,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 228,
+    "condition": "A3",
+    "residual_masks": 20,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 230,
+    "condition": "A3",
+    "residual_masks": 21,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 234,
+    "condition": "A3",
+    "residual_masks": 20,
+    "scored_correct": false
+  },
+  {
+    "stage": "mid",
+    "id": 236,
+    "condition": "A3",
+    "residual_masks": 20,
+    "scored_correct": false
+  }
+]

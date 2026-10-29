@@ -1,0 +1,108 @@
+[
+  {
+    "id": 0,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_0.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_0.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "8213293dbc09"
+  },
+  {
+    "id": 1,
+    "kind": "file_lookup",
+    "question": "Return the exact 12-character value stored in lookup/item_1.txt.",
+    "call": {
+      "name": "read_file",
+      "args": {
+        "path": "lookup/item_1.txt",
+        "offset": 0,
+        "length": 128
+      }
+    },
+    "expected": "6fbed9be80ce"
+  },
+  {
+    "id": 8,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'257350550878924214996325').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "bb5ae3d2243c"
+  },
+  {
+    "id": 9,
+    "kind": "code_output",
+    "question": "Return exactly what this Python program prints: import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import hashlib;print(hashlib.sha256(b'426551575986835798514928').hexdigest()[:12])"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "573427b19917"
+  },
+  {
+    "id": 16,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_0.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_0.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "-57606"
+  },
+  {
+    "id": 17,
+    "kind": "compute_file",
+    "question": "Return the exact sum of the amount column in tables/table_1.csv.",
+    "call": {
+      "name": "run",
+      "args": {
+        "cmd": [
+          "python3",
+          "-c",
+          "import csv;print(sum(int(r['amount']) for r in csv.DictReader(open('tables/table_1.csv'))))"
+        ],
+        "stdin": "",
+        "timeout_ms": 2000
+      }
+    },
+    "expected": "32181"
+  },
+  {
+    "id": 100,
+    "kind": "write",
+    "question": "Use write_file to save the literal text native-written-7319 to model_writes/native.txt. After success return DONE.",
+    "expected": "DONE"
+  }
+]

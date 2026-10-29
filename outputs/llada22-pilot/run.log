@@ -1,0 +1,96 @@
+lock check passed
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+model loaded
+{"task": "tools", "id": 0, "kind": "file_lookup", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 3.84}
+{"task": "tools", "id": 0, "kind": "file_lookup", "mode": "conventional", "correct": false, "contains_expected": false, "valid_call": true, "received": true, "seconds": 7.83}
+{"task": "tools", "id": 0, "kind": "file_lookup", "mode": "async", "correct": false, "contains_expected": false, "valid_call": true, "received": true, "seconds": 7.98}
+{"task": "tools", "id": 1, "kind": "file_lookup", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 2.6}
+{"task": "tools", "id": 1, "kind": "file_lookup", "mode": "conventional", "correct": false, "contains_expected": true, "valid_call": true, "received": true, "seconds": 7.28}
+{"task": "tools", "id": 1, "kind": "file_lookup", "mode": "async", "correct": false, "contains_expected": true, "valid_call": true, "received": true, "seconds": 8.37}
+{"task": "tools", "id": 8, "kind": "code_output", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 2.42}
+{"task": "tools", "id": 8, "kind": "code_output", "mode": "conventional", "correct": false, "contains_expected": true, "valid_call": true, "received": true, "seconds": 12.1}
+{"task": "tools", "id": 8, "kind": "code_output", "mode": "async", "correct": false, "contains_expected": true, "valid_call": true, "received": true, "seconds": 10.8}
+{"task": "tools", "id": 9, "kind": "code_output", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 3.06}
+{"task": "tools", "id": 9, "kind": "code_output", "mode": "conventional", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 5.67}
+{"task": "tools", "id": 9, "kind": "code_output", "mode": "async", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 5.66}
+{"task": "tools", "id": 16, "kind": "compute_file", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 6.5}
+{"task": "tools", "id": 16, "kind": "compute_file", "mode": "conventional", "correct": false, "contains_expected": false, "valid_call": true, "received": true, "seconds": 18.84}
+{"task": "tools", "id": 16, "kind": "compute_file", "mode": "async", "correct": false, "contains_expected": false, "valid_call": true, "received": true, "seconds": 10.38}
+{"task": "tools", "id": 17, "kind": "compute_file", "mode": "base", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 6.44}
+{"task": "tools", "id": 17, "kind": "compute_file", "mode": "conventional", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 4.84}
+{"task": "tools", "id": 17, "kind": "compute_file", "mode": "async", "correct": false, "contains_expected": false, "valid_call": false, "received": null, "seconds": 4.83}
+{"task": "tools", "id": 100, "kind": "write", "mode": "base", "correct": true, "contains_expected": true, "valid_call": false, "received": null, "seconds": 1.53}
+{"task": "tools", "id": 100, "kind": "write", "mode": "conventional", "correct": true, "contains_expected": true, "valid_call": true, "received": true, "seconds": 4.82}
+{"task": "tools", "id": 100, "kind": "write", "mode": "async", "correct": true, "contains_expected": true, "valid_call": true, "received": true, "seconds": 3.83}
+{"task": "arithmetic", "id": 0, "mode": "base", "correct": false, "injected": false, "seconds": 1.24, "forward_calls": 5}
+{"task": "arithmetic", "id": 0, "mode": "mid", "correct": false, "injected": false, "seconds": 1.24, "forward_calls": 5}
+{"task": "arithmetic", "id": 1, "mode": "base", "correct": true, "injected": false, "seconds": 3.26, "forward_calls": 12}
+{"task": "arithmetic", "id": 1, "mode": "mid", "correct": true, "injected": false, "seconds": 3.31, "forward_calls": 12}
+{"task": "arithmetic", "id": 2, "mode": "base", "correct": true, "injected": false, "seconds": 1.25, "forward_calls": 5}
+{"task": "arithmetic", "id": 2, "mode": "mid", "correct": true, "injected": false, "seconds": 1.27, "forward_calls": 5}
+{"task": "arithmetic", "id": 3, "mode": "base", "correct": true, "injected": false, "seconds": 3.53, "forward_calls": 13}
+{"task": "arithmetic", "id": 3, "mode": "mid", "correct": true, "injected": false, "seconds": 3.59, "forward_calls": 13}
+{"task": "arithmetic", "id": 4, "mode": "base", "correct": false, "injected": false, "seconds": 1.0, "forward_calls": 4}
+{"task": "arithmetic", "id": 4, "mode": "mid", "correct": false, "injected": false, "seconds": 1.02, "forward_calls": 4}
+{"task": "arithmetic", "id": 5, "mode": "base", "correct": true, "injected": false, "seconds": 3.04, "forward_calls": 11}
+{"task": "arithmetic", "id": 5, "mode": "mid", "correct": true, "injected": false, "seconds": 3.07, "forward_calls": 11}
+{"task": "arithmetic", "id": 6, "mode": "base", "correct": false, "injected": false, "seconds": 1.28, "forward_calls": 5}
+{"task": "arithmetic", "id": 6, "mode": "mid", "correct": false, "injected": false, "seconds": 1.28, "forward_calls": 5}
+{"task": "arithmetic", "id": 7, "mode": "base", "correct": true, "injected": false, "seconds": 3.04, "forward_calls": 11}
+{"task": "arithmetic", "id": 7, "mode": "mid", "correct": true, "injected": false, "seconds": 3.1, "forward_calls": 11}
+{"task": "arithmetic", "id": 8, "mode": "base", "correct": false, "injected": false, "seconds": 2.66, "forward_calls": 10}
+{"task": "arithmetic", "id": 8, "mode": "mid", "correct": false, "injected": false, "seconds": 2.61, "forward_calls": 10}
+{"task": "arithmetic", "id": 9, "mode": "base", "correct": true, "injected": false, "seconds": 4.45, "forward_calls": 16}
+{"task": "arithmetic", "id": 9, "mode": "mid", "correct": true, "injected": false, "seconds": 4.5, "forward_calls": 16}
+{"task": "arithmetic", "id": 10, "mode": "base", "correct": false, "injected": false, "seconds": 1.52, "forward_calls": 6}
+{"task": "arithmetic", "id": 10, "mode": "mid", "correct": false, "injected": false, "seconds": 1.52, "forward_calls": 6}
+{"task": "arithmetic", "id": 11, "mode": "base", "correct": false, "injected": false, "seconds": 4.87, "forward_calls": 17}
+{"task": "arithmetic", "id": 11, "mode": "mid", "correct": false, "injected": false, "seconds": 4.81, "forward_calls": 17}
+{"task": "arithmetic", "id": 12, "mode": "base", "correct": true, "injected": false, "seconds": 1.8, "forward_calls": 7}
+{"task": "arithmetic", "id": 12, "mode": "mid", "correct": true, "injected": true, "seconds": 1.52, "forward_calls": 6}
+{"task": "arithmetic", "id": 13, "mode": "base", "correct": true, "injected": false, "seconds": 3.62, "forward_calls": 13}
+{"task": "arithmetic", "id": 13, "mode": "mid", "correct": true, "injected": false, "seconds": 3.65, "forward_calls": 13}
+{"task": "arithmetic", "id": 14, "mode": "base", "correct": true, "injected": false, "seconds": 1.51, "forward_calls": 6}
+{"task": "arithmetic", "id": 14, "mode": "mid", "correct": true, "injected": true, "seconds": 1.56, "forward_calls": 6}
+{"task": "arithmetic", "id": 15, "mode": "base", "correct": true, "injected": false, "seconds": 3.65, "forward_calls": 13}
+{"task": "arithmetic", "id": 15, "mode": "mid", "correct": true, "injected": false, "seconds": 3.57, "forward_calls": 13}
+{"task": "arithmetic", "id": 16, "mode": "base", "correct": false, "injected": false, "seconds": 1.53, "forward_calls": 6}
+{"task": "arithmetic", "id": 16, "mode": "mid", "correct": true, "injected": true, "seconds": 1.52, "forward_calls": 6}
+{"task": "arithmetic", "id": 17, "mode": "base", "correct": true, "injected": false, "seconds": 3.32, "forward_calls": 12}
+{"task": "arithmetic", "id": 17, "mode": "mid", "correct": true, "injected": false, "seconds": 3.23, "forward_calls": 12}
+{"task": "arithmetic", "id": 18, "mode": "base", "correct": false, "injected": false, "seconds": 1.48, "forward_calls": 6}
+{"task": "arithmetic", "id": 18, "mode": "mid", "correct": true, "injected": true, "seconds": 1.52, "forward_calls": 6}
+{"task": "arithmetic", "id": 19, "mode": "base", "correct": true, "injected": false, "seconds": 3.28, "forward_calls": 12}
+{"task": "arithmetic", "id": 19, "mode": "mid", "correct": true, "injected": false, "seconds": 3.31, "forward_calls": 12}
+{"task": "arithmetic", "id": 20, "mode": "base", "correct": false, "injected": false, "seconds": 4.05, "forward_calls": 15}
+{"task": "arithmetic", "id": 20, "mode": "mid", "correct": true, "injected": true, "seconds": 2.54, "forward_calls": 10}
+{"task": "arithmetic", "id": 21, "mode": "base", "correct": false, "injected": false, "seconds": 10.05, "forward_calls": 32}
+{"task": "arithmetic", "id": 21, "mode": "mid", "correct": false, "injected": false, "seconds": 10.31, "forward_calls": 32}
+{"task": "arithmetic", "id": 22, "mode": "base", "correct": false, "injected": false, "seconds": 4.26, "forward_calls": 15}
+{"task": "arithmetic", "id": 22, "mode": "mid", "correct": true, "injected": true, "seconds": 2.7, "forward_calls": 10}
+{"task": "arithmetic", "id": 23, "mode": "base", "correct": false, "injected": false, "seconds": 6.54, "forward_calls": 22}
+{"task": "arithmetic", "id": 23, "mode": "mid", "correct": false, "injected": false, "seconds": 6.43, "forward_calls": 22}
+{"task": "arithmetic", "id": 24, "mode": "base", "correct": true, "injected": false, "seconds": 2.66, "forward_calls": 10}
+{"task": "arithmetic", "id": 24, "mode": "mid", "correct": true, "injected": false, "seconds": 2.65, "forward_calls": 10}
+{"task": "arithmetic", "id": 25, "mode": "base", "correct": true, "injected": false, "seconds": 3.83, "forward_calls": 13}
+{"task": "arithmetic", "id": 25, "mode": "mid", "correct": true, "injected": false, "seconds": 3.84, "forward_calls": 13}
+{"task": "arithmetic", "id": 26, "mode": "base", "correct": true, "injected": false, "seconds": 2.64, "forward_calls": 10}
+{"task": "arithmetic", "id": 26, "mode": "mid", "correct": true, "injected": false, "seconds": 2.63, "forward_calls": 10}
+{"task": "arithmetic", "id": 27, "mode": "base", "correct": true, "injected": false, "seconds": 3.16, "forward_calls": 11}
+{"task": "arithmetic", "id": 27, "mode": "mid", "correct": true, "injected": true, "seconds": 3.43, "forward_calls": 12}
+{"task": "arithmetic", "id": 28, "mode": "base", "correct": true, "injected": false, "seconds": 2.59, "forward_calls": 10}
+{"task": "arithmetic", "id": 28, "mode": "mid", "correct": true, "injected": false, "seconds": 2.63, "forward_calls": 10}
+{"task": "arithmetic", "id": 29, "mode": "base", "correct": true, "injected": false, "seconds": 3.78, "forward_calls": 13}
+{"task": "arithmetic", "id": 29, "mode": "mid", "correct": true, "injected": false, "seconds": 3.94, "forward_calls": 13}
+{"task": "arithmetic", "id": 30, "mode": "base", "correct": true, "injected": false, "seconds": 2.63, "forward_calls": 10}
+{"task": "arithmetic", "id": 30, "mode": "mid", "correct": true, "injected": false, "seconds": 2.65, "forward_calls": 10}
+{"task": "arithmetic", "id": 31, "mode": "base", "correct": true, "injected": false, "seconds": 4.87, "forward_calls": 16}
+{"task": "arithmetic", "id": 31, "mode": "mid", "correct": true, "injected": false, "seconds": 4.71, "forward_calls": 16}
+{"task": "arithmetic", "id": 32, "mode": "base", "correct": false, "injected": false, "seconds": 3.64, "forward_calls": 14}
+{"task": "arithmetic", "id": 32, "mode": "mid", "correct": false, "injected": false, "seconds": 3.79, "forward_calls": 14}
+{"task": "arithmetic", "id": 33, "mode": "base", "correct": false, "injected": false, "seconds": 9.09, "forward_calls": 28}
+{"task": "arithmetic", "id": 33, "mode": "mid", "correct": false, "injected": false, "seconds": 9.67, "forward_calls": 28}
+{"task": "arithmetic", "id": 34, "mode": "base", "correct": false, "injected": false, "seconds": 3.76, "forward_calls": 14}
+{"task": "arithmetic", "id": 34, "mode": "mid", "correct": false, "injected": false, "seconds": 3.8, "forward_calls": 14}
+{"task": "arithmetic", "id": 35, "mode": "base", "correct": true, "injected": false, "seconds": 5.83, "forward_calls": 19}
+{"task": "arithmetic", "id": 35, "mode": "mid", "correct": true, "injected": false, "seconds": 5.75, "forward_calls": 19}

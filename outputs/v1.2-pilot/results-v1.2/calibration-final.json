@@ -1,0 +1,20 @@
+{
+  "status": "stopped_by_user_for_calibration",
+  "reason": "Runpod restart returned HTTP 402; user requested calibration from existing results instead of funding/resuming",
+  "measured_raw_records": {
+    "delay": 144,
+    "linux": 85,
+    "full": 0,
+    "mid": 0
+  },
+  "matched_linux_tasks": 21,
+  "matched_multicall_tasks": 14,
+  "unmatched_linux_records": [
+    {
+      "id": 214,
+      "condition": "L0"
+    }
+  ],
+  "all_planned_runs_completed": false,
+  "timestamp": 1793246381.194389
+}

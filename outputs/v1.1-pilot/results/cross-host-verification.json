@@ -1,0 +1,7 @@
+{
+  "status": "not_completed",
+  "n": 0,
+  "identical": 0,
+  "mismatches": [],
+  "reason": "Supplemental cross-host control repeat aborted after model reload stalled on storage page reads; main experiment and original smoke repeats are complete."
+}

@@ -1,0 +1,40 @@
+def hook(tokenizer,x,draft,conf,prefix,rows,done,events,step,tau,overwrite=False,backend='gpu'):
+    import torch
+    ids=draft[:,prefix:].tolist(); confidence=conf[:,prefix:].tolist()
+    candidates=[]
+    for bi,sequence in enumerate(ids):
+        if done[bi]: continue
+        text,offsets=boundaries(tokenizer,sequence)
+        if text is None: continue
+        for match in EQ.finditer(text):
+            if match.start() not in offsets or match.end() not in offsets: continue
+            begin=offsets.index(match.start());end=offsets.index(match.end())
+            if not confidence[bi][begin:end] or min(confidence[bi][begin:end])<tau:continue
+            a,b=int(match['a']),int(match['b']);op=match['op'].replace('×','*').replace('−','-')
+            if backend=='gpu' and (a<0 or b<0):continue
+            candidates.append(dict(bi=bi,begin=begin,end=end,a=a,b=b,op=op))
+            break # At most one candidate per sequence per denoising barrier.
+    if not candidates:return 0
+    if backend=='gpu':
+        from gpu_arithmetic import encode,compute,decode
+        aa=encode([c['a'] for c in candidates]);bb=encode([c['b'] for c in candidates])
+        ops=torch.tensor([{'+':0,'-':1,'*':2}[c['op']] for c in candidates],dtype=torch.int32,device=x.device)
+        values=decode(*compute(aa,bb,ops))
+    else:values=[calculate(c['a'],c['op'],c['b']) for c in candidates]
+    for c,value in zip(candidates,values):
+        bi=c['bi'];begin=c['begin'];end=c['end'];sequence=ids[bi]
+        result_text=' '+str(value)+'\n';result=tokenizer.encode(result_text,add_special_tokens=False)
+        if tokenizer.decode(result,clean_up_tokenization_spaces=False)!=result_text:continue
+        start=prefix+end;stop=start+len(result)
+        event=dict(step=step,batch_index=bi,id=rows[bi]['id'],a=c['a'],b=c['b'],op=c['op'],value=str(value),start=start,stop=stop,
+                   operand_match=(c['a']==rows[bi]['a'] and c['b']==rows[bi]['b'] and c['op']==rows[bi]['op']),
+                   min_confidence=min(confidence[bi][begin:end]),backend=backend)
+        if stop>x.shape[1]:event['status']='length_failure'
+        elif not overwrite and not bool((x[bi,start:stop]==MASK).all()):event['status']='occupied_slot'
+        else:
+            x[bi,start:stop]=torch.tensor(result,device=x.device)
+            event.update(status='injected',result_ids=result,draft_before=tokenizer.decode(sequence,skip_special_tokens=True),
+                         before_ids=sequence.copy(),operand_token_ids=sequence[begin:end],operand_start=prefix+begin,operand_end=prefix+end)
+            done[bi]=True
+        events.append(event)
+    return int(backend=='gpu')

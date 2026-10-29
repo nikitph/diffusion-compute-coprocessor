@@ -1,0 +1,12 @@
+{
+  "model": "inclusionAI/LLaDA2.2-mini",
+  "revision": "e4f77d25ab5ca86f2223c6cdc6a72b887e20c8a5",
+  "torch": "2.8.0+cu128",
+  "block_lengths": [
+    32,
+    64
+  ],
+  "seed": 20261028,
+  "fine_tuning": false,
+  "batch": 1
+}

@@ -1,0 +1,1150 @@
+{
+  "diffusion-pilot/README.md": {
+    "bytes": 6738,
+    "sha256": "3266d11e70f8045f4437330ea9c3a6553bb4b4fc2034e4f6acb29afc1e9084e8"
+  },
+  "diffusion-pilot/analyze.py": {
+    "bytes": 2832,
+    "sha256": "b73c158ab95775a33a921bc105d1e38c81c8ad79aa97e86bebdff37dc77720d6"
+  },
+  "diffusion-pilot/gpu_arithmetic.py": {
+    "bytes": 3438,
+    "sha256": "fcb70f7ba8ac2877da107757bf10de5858e73a38cf657e36d18f29d62cb1981d"
+  },
+  "diffusion-pilot/kernel-results.json": {
+    "bytes": 151,
+    "sha256": "589da8fce69e6f23fbf2d9cdaaf714860e784f6393a1e8409a16a74225e5eab3"
+  },
+  "diffusion-pilot/pilot-instrumented-run.py": {
+    "bytes": 13565,
+    "sha256": "d00d11babe7d4be87187c4a9afdec5b5a23c1cec33efb30bccfc691cced4eaf1"
+  },
+  "diffusion-pilot/pilot-strict-original.py": {
+    "bytes": 12815,
+    "sha256": "07c6be0d089a58c2c58c8179f6ccf67675ee76ee675eb10d19b140f2bc17f893"
+  },
+  "diffusion-pilot/pilot.py": {
+    "bytes": 13580,
+    "sha256": "f195293fa084047a985aa1f061df293d3f4291defc40bb0afb50e591c8bece4d"
+  },
+  "diffusion-pilot/strict-analysis.log": {
+    "bytes": 3414,
+    "sha256": "b875e442b016281a595c24ae17aab8a75846a1cbb15c20bd6339ed9f66ac44d3"
+  },
+  "diffusion-pilot/strict-results/analysis.json": {
+    "bytes": 3413,
+    "sha256": "1d635d18184636ac33a24fe269a9dccabfb220a9dbc8a0f499f3bc8ac5218a99"
+  },
+  "diffusion-pilot/strict-results/batches.jsonl": {
+    "bytes": 116072,
+    "sha256": "91d0de11d1696af9fabd39d842a4e5337d3012b6575eade9f432b80a31c3f7a7"
+  },
+  "diffusion-pilot/strict-results/dataset.json": {
+    "bytes": 15829,
+    "sha256": "e2561635e1450486f3e8af72cd1c536da2ffccda41626b14dbd5ff4813c221c5"
+  },
+  "diffusion-pilot/strict-results/environment.json": {
+    "bytes": 396,
+    "sha256": "552d5c1a7c4760eb9e99569e6a843fb32995524cdf31a790b445e4cdfa89aa54"
+  },
+  "diffusion-pilot/strict-results/evaluated_records.jsonl": {
+    "bytes": 28003,
+    "sha256": "400abaee2461062a2756c007e63a3d5b2c2a24c2dd6ef9067b639edf71dedef8"
+  },
+  "diffusion-pilot/strict-results/records.jsonl": {
+    "bytes": 28010,
+    "sha256": "b8b34be34a509208c59808ddb453277e1711ce722bc51f63cf8ba8286d89d096"
+  },
+  "diffusion-pilot/strict-results/summary.json": {
+    "bytes": 767,
+    "sha256": "146253ea4ffa70b86e03e6e9b00c45765bb97242677de9b907470096d88f8ddf"
+  },
+  "diffusion-pilot/strict-run.log": {
+    "bytes": 4724,
+    "sha256": "1241d4a19c22d78d4274b758200ba531fd6510d728b813b8f7eb6743c7d6d95e"
+  },
+  "diffusion-pilot/test_pilot.py": {
+    "bytes": 3239,
+    "sha256": "41ba7e8ea66ede1aaf9e66a309492f0daa60f55159cbc7ecc41af7713c0fece5"
+  },
+  "diffusion-pilot/timing-analysis.log": {
+    "bytes": 3412,
+    "sha256": "c663f69d7990a0fc87c461d2b030e4c443dffae139fa4f7b6cbb10a1f5ce19b5"
+  },
+  "diffusion-pilot/timing-results/analysis.json": {
+    "bytes": 3411,
+    "sha256": "19fb5607117b14d5ecdee467dade37015574d8c7d52cefe0c399b1ee6bdc83c0"
+  },
+  "diffusion-pilot/timing-results/batches.jsonl": {
+    "bytes": 280563,
+    "sha256": "a2e4e9a5d2062ef5426ea6342f5e2dfa6098e815922141a2240b5fd875394cde"
+  },
+  "diffusion-pilot/timing-results/dataset.json": {
+    "bytes": 15829,
+    "sha256": "e2561635e1450486f3e8af72cd1c536da2ffccda41626b14dbd5ff4813c221c5"
+  },
+  "diffusion-pilot/timing-results/environment.json": {
+    "bytes": 396,
+    "sha256": "c03d9a756e75a1ab57face0bcdd4273a05e276d1e4a63495b01b76af6742a38f"
+  },
+  "diffusion-pilot/timing-results/evaluated_records.jsonl": {
+    "bytes": 28003,
+    "sha256": "03a8fa750dc7f4c1defb83451aac02c402114ed1c17fc89d8c05cccd9ee7d89d"
+  },
+  "diffusion-pilot/timing-results/records.jsonl": {
+    "bytes": 28010,
+    "sha256": "adc1fceb7ba41c5985d0b7042f374abe8724835dab13fb7bc8ab794ebaf23c8d"
+  },
+  "diffusion-pilot/timing-results/summary.json": {
+    "bytes": 767,
+    "sha256": "85aedd9a8675373b4e7644f408c081b79eef363c321c44695c23ae8b13895ca2"
+  },
+  "diffusion-pilot/timing-run.log": {
+    "bytes": 4450,
+    "sha256": "6f9d5e540161b0fa7e6574ec36c0aacee74872b88cf91c45fb14adb78dd2658d"
+  },
+  "llada22-pilot/README.md": {
+    "bytes": 7772,
+    "sha256": "d964970e4173ff2848a07a74bf7205ea8edaa773d0cfe022ed18807c1888f9dc"
+  },
+  "llada22-pilot/analyze.py": {
+    "bytes": 2644,
+    "sha256": "b80b5699a11b9fe4f20f9d043a8a29e14554511832dda03e7996b4ed025ec68f"
+  },
+  "llada22-pilot/arith_reference.py": {
+    "bytes": 13580,
+    "sha256": "f195293fa084047a985aa1f061df293d3f4291defc40bb0afb50e591c8bece4d"
+  },
+  "llada22-pilot/arithmetic_hook.py": {
+    "bytes": 1983,
+    "sha256": "eeef0d30d2ca55840a427728abe1ca1c5d5db09d5504d229c76b382a50b923bc"
+  },
+  "llada22-pilot/async_engine.py": {
+    "bytes": 4253,
+    "sha256": "dfad1650d5e87b0deff4d3ccd2cd2028463e5ac87ab38d47d286bd915d782f32"
+  },
+  "llada22-pilot/call_parser.py": {
+    "bytes": 1530,
+    "sha256": "ca9a93da873c61c8be0719a2f6b11ed5ae26dbc6f4adb4aa21c392685841cfd0"
+  },
+  "llada22-pilot/dense.log": {
+    "bytes": 5814,
+    "sha256": "7ebdec8437d7731fa9fcd5704b5cddc9ad81001f50dc1b2592ee8293f1c696d8"
+  },
+  "llada22-pilot/dense_control.py": {
+    "bytes": 2581,
+    "sha256": "8043216cce82b51d45a78293e2fb26a676e3a3c28253684b60e10ab6314f84d5"
+  },
+  "llada22-pilot/gpu_arithmetic.py": {
+    "bytes": 3438,
+    "sha256": "fcb70f7ba8ac2877da107757bf10de5858e73a38cf657e36d18f29d62cb1981d"
+  },
+  "llada22-pilot/infrastructure.json": {
+    "bytes": 245,
+    "sha256": "980eba0daf0f5a2414333b1288be69e4e601115015ee3fd99a22013d7d3f313f"
+  },
+  "llada22-pilot/lock_check.py": {
+    "bytes": 849,
+    "sha256": "5efefe6a1937fb1b17c6ce6d97b828be5985e599189a81d0090acbd19aae807a"
+  },
+  "llada22-pilot/mini-results/arithmetic-tasks.json": {
+    "bytes": 15829,
+    "sha256": "e2561635e1450486f3e8af72cd1c536da2ffccda41626b14dbd5ff4813c221c5"
+  },
+  "llada22-pilot/mini-results/arithmetic.jsonl": {
+    "bytes": 96769,
+    "sha256": "bd5a2bdd63599f6b84946b9c66f6be24081250c57d41e7d6b4fdde2514fcd402"
+  },
+  "llada22-pilot/mini-results/delayed-control.json": {
+    "bytes": 8519,
+    "sha256": "8866d0d75042ccecda8a60824881ac92d7ec0da380ab56de3f7682aa456b0c0f"
+  },
+  "llada22-pilot/mini-results/dense-controls.jsonl": {
+    "bytes": 5796,
+    "sha256": "c5fee75332f6d6ddd2fd7fd483a21a4ebfb0d415630f2f33fdea8b05af4ed256"
+  },
+  "llada22-pilot/mini-results/environment.json": {
+    "bytes": 352,
+    "sha256": "9238cfaa329fab25c6839bf28287d2a2c451cf7212154e952ce70c8a48eff281"
+  },
+  "llada22-pilot/mini-results/lock-test.json": {
+    "bytes": 119,
+    "sha256": "8d17564605954158ec8248f0af40cf97f53430332df74f09edacf91240fcf727"
+  },
+  "llada22-pilot/mini-results/summary.json": {
+    "bytes": 2689,
+    "sha256": "62fd66b6d494a82af56fcb063e3a6c96b155f7eb29ebd09514d213adcaa7c2d1"
+  },
+  "llada22-pilot/mini-results/tool-tasks.json": {
+    "bytes": 2729,
+    "sha256": "ecefb86e8aa84a8821f9dbdcb29369f5d67dbbf15bf2c74e7d4cfaf04be9cfc2"
+  },
+  "llada22-pilot/mini-results/tools.jsonl": {
+    "bytes": 36921,
+    "sha256": "84b2702323a4b998f307e96059f9d5008b3c90dd879215a8b757407ab7077d91"
+  },
+  "llada22-pilot/mini-results/upstream-call-controls.jsonl": {
+    "bytes": 858,
+    "sha256": "3969030696d38c32f297e15b707700583761cbd659776cede59f0af480eaa10e"
+  },
+  "llada22-pilot/mini-results/verification.json": {
+    "bytes": 165,
+    "sha256": "1c76815963e5cd46e6e861dc340943b496affcf3f3c23a2877915b1d8e099685"
+  },
+  "llada22-pilot/native_tools.py": {
+    "bytes": 3858,
+    "sha256": "34fb7ee92af50dc873e3582423bad96eb714e799e0e6ff95370f4052d95ae5e4"
+  },
+  "llada22-pilot/requirements.txt": {
+    "bytes": 86,
+    "sha256": "a96e225f85c0b977f01c8d6a00ee2882ef13214087a2605cbe63a167aa332af5"
+  },
+  "llada22-pilot/run.log": {
+    "bytes": 12537,
+    "sha256": "9999814adac8d41e20b5f4910e99334c2df87bdd752d47af2699872776979d19"
+  },
+  "llada22-pilot/run_pilot.py": {
+    "bytes": 8559,
+    "sha256": "dfa934e4cb8b95358f41b7212de5b270cd39221a3ea743d163299107044ce0fb"
+  },
+  "llada22-pilot/sampler.py": {
+    "bytes": 6178,
+    "sha256": "0301578f8f001e38902c837ec6e41e17252eb4367432eb7b2fe98d6e44751a6a"
+  },
+  "llada22-pilot/smoke-results.json": {
+    "bytes": 901,
+    "sha256": "2250e1d41ae3298e07da92c72e8fad4b796bf9647d197e05304e743f9f3944bf"
+  },
+  "llada22-pilot/smoke.py": {
+    "bytes": 1621,
+    "sha256": "c7013f5b34fd763691672fb5ea26d8d2d642a5e08554d35c89b088a0a952c7e6"
+  },
+  "syscall-pilot/Dockerfile": {
+    "bytes": 167,
+    "sha256": "75b7e4f188eda023df4476536534106117b8dda3b197531bf38fd97355f11db4"
+  },
+  "syscall-pilot/README.md": {
+    "bytes": 5701,
+    "sha256": "8983aa2a7554bef165bc4d5196b27361d13dfd1fa719f6f2c70cf2ba8312e285"
+  },
+  "syscall-pilot/assistant-layout-results/batches.jsonl": {
+    "bytes": 104071,
+    "sha256": "99547ed93dd00424cf7817fb5563a81d022c0fadbfa08c87c0bd395fcc36b431"
+  },
+  "syscall-pilot/assistant-layout-results/environment.json": {
+    "bytes": 332,
+    "sha256": "6a55d5e613f1a2525bfaafa945dfc8b0568bd002e5bee4e39046070cc4883030"
+  },
+  "syscall-pilot/assistant-layout-results/records.jsonl": {
+    "bytes": 17900,
+    "sha256": "11248a7bc75d97dcc983079a72bb0c4a2b610523422134475643b4cd412af3cb"
+  },
+  "syscall-pilot/assistant-layout-results/summary.json": {
+    "bytes": 270,
+    "sha256": "e253c886ff2236a63fd8a849966e4a5af80c2f9c23fd54673ea7348241ffa579"
+  },
+  "syscall-pilot/assistant-layout-results/syntax-probe.json": {
+    "bytes": 3195,
+    "sha256": "de8a9d3dfc60c595d0ce62d601d69f1ee57c14ec597ea8a64bfd0d91ddc43753"
+  },
+  "syscall-pilot/assistant-layout-results/tasks.json": {
+    "bytes": 10108,
+    "sha256": "ff4fe43dba78e0c2df19486bbd848ae8c3e1776032ab959c4d7e106eabbde294"
+  },
+  "syscall-pilot/assistant-layout-run.log": {
+    "bytes": 4604,
+    "sha256": "b6e320252309ea21746c41dd1e8aa3479acd8896575d352779091afd607abe0e"
+  },
+  "syscall-pilot/async_engine.py": {
+    "bytes": 4253,
+    "sha256": "dfad1650d5e87b0deff4d3ccd2cd2028463e5ac87ab38d47d286bd915d782f32"
+  },
+  "syscall-pilot/call_parser.py": {
+    "bytes": 1530,
+    "sha256": "ca9a93da873c61c8be0719a2f6b11ed5ae26dbc6f4adb4aa21c392685841cfd0"
+  },
+  "syscall-pilot/container_runner.py": {
+    "bytes": 2348,
+    "sha256": "8c36077fbb1c4b1a29ac63de55fa645dc2fbb6293705414f2b2cc84bf4ef5924"
+  },
+  "syscall-pilot/gateway.py": {
+    "bytes": 3229,
+    "sha256": "9f23cdbc4ef7d283d21c47b15d156313826976500c9d5c783ef2f8b473be37f0"
+  },
+  "syscall-pilot/generated_pilot.py": {
+    "bytes": 7490,
+    "sha256": "d65184a3b77f4437dd72fef22b7d46d4e6dfe47cba407e08c7fa4e5808a1d31e"
+  },
+  "syscall-pilot/infrastructure.json": {
+    "bytes": 257,
+    "sha256": "a8f084dfe4b4fdf7399b7060f0bdd7e8d1ca662b579a0a5ad49e1794c0f4d3df"
+  },
+  "syscall-pilot/make_tasks.py": {
+    "bytes": 1704,
+    "sha256": "682e3bdd617c4aa0019ac59f53baeebcaa1641490cbc4499d3cbcb2d81064367"
+  },
+  "syscall-pilot/model-pilot-assistant-layout.py": {
+    "bytes": 10651,
+    "sha256": "24e71eb8f0b65c8b79e000ca0b8b4b3bc0158ffed614a7b4853289c2b97e22ff"
+  },
+  "syscall-pilot/model_pilot.py": {
+    "bytes": 10968,
+    "sha256": "ed20e1d089af1146958a10cc6fbff4957e6c13bc8769c7878174115bba94d76f"
+  },
+  "syscall-pilot/protocol-tests.log": {
+    "bytes": 766,
+    "sha256": "5651fb2268d1b16a374d6cc791c817395a287b9959c5ed434f815da08a1fbbab"
+  },
+  "syscall-pilot/tasks.json": {
+    "bytes": 10108,
+    "sha256": "ff4fe43dba78e0c2df19486bbd848ae8c3e1776032ab959c4d7e106eabbde294"
+  },
+  "syscall-pilot/test_parser.py": {
+    "bytes": 1104,
+    "sha256": "a174f81f0fd4c84c450c79293c66c82c0ba4924f0a104ed099aeaa9e31062dc1"
+  },
+  "syscall-pilot/test_protocol.py": {
+    "bytes": 4771,
+    "sha256": "9e39c3c727295c8c949baaa9812126bb503ccc1a1b2e519246dce29b01607b72"
+  },
+  "syscall-pilot/user-layout-results/batches.jsonl": {
+    "bytes": 67869,
+    "sha256": "4dfc8314d9b63a79aed5e837884202ac882fdea1ddaa02ed3692d24121c90d54"
+  },
+  "syscall-pilot/user-layout-results/environment.json": {
+    "bytes": 358,
+    "sha256": "849f2a939a40086a881dd39cd9af09f82289d8db817ddd959cfab337424b96ba"
+  },
+  "syscall-pilot/user-layout-results/records.jsonl": {
+    "bytes": 11596,
+    "sha256": "199f2b979b43693ebf75245139085081b012b52cc2f720aa88eb2539e624796b"
+  },
+  "syscall-pilot/user-layout-run.log": {
+    "bytes": 3224,
+    "sha256": "456f44a5fbeb07b8cf235453bba12e24000042d6e000c43cdc2c9bdd37855c60"
+  },
+  "syscall-pilot/validation.log": {
+    "bytes": 1149,
+    "sha256": "ae6728ee250f3010b17c3e116f70e06422fbd647d91413ee200902949e92c2bd"
+  },
+  "syscall-pilot/workspace/lookup/item_0.txt": {
+    "bytes": 13,
+    "sha256": "456b12e8dbef48ae61f8e4623a96ee7c15844e48bf67240c290da871527a772f"
+  },
+  "syscall-pilot/workspace/lookup/item_1.txt": {
+    "bytes": 13,
+    "sha256": "ebd258f69f9b91b35d273d4e14a92c8c356c825ec7ad39ad1367eb4760a828f1"
+  },
+  "syscall-pilot/workspace/lookup/item_2.txt": {
+    "bytes": 13,
+    "sha256": "dbf74adc4abd064e875169d6251a20c4b1833352231bb3c8e62ca8ad6faa2e95"
+  },
+  "syscall-pilot/workspace/lookup/item_3.txt": {
+    "bytes": 13,
+    "sha256": "d5caa2b7f81373a9869833e08c56080251a239e7e3a24bb3f9d9ff73c18d187a"
+  },
+  "syscall-pilot/workspace/lookup/item_4.txt": {
+    "bytes": 13,
+    "sha256": "7fc9b2c2020197b417ebfb6220c9f7ea125f17c63e4a54604b8e470c7146c7d7"
+  },
+  "syscall-pilot/workspace/lookup/item_5.txt": {
+    "bytes": 13,
+    "sha256": "3a76b02c126279d1a3205857cb2e5cf104e02694362af547d32b505b5445df70"
+  },
+  "syscall-pilot/workspace/lookup/item_6.txt": {
+    "bytes": 13,
+    "sha256": "e3c8d67f2799ffcb26a4419829b4a92c9cf027afffaca489b84ca50c7ae8c2e6"
+  },
+  "syscall-pilot/workspace/lookup/item_7.txt": {
+    "bytes": 13,
+    "sha256": "bd2edc8ce2018e66ccf54ff5650527d2eecdb974b57b57c1fc68a4601b565186"
+  },
+  "syscall-pilot/workspace/model_writes/native.txt": {
+    "bytes": 19,
+    "sha256": "5cf6a383a23515cbb38aebfcca845c519791161d3b3151fa5584eb3b992796d3"
+  },
+  "syscall-pilot/workspace/tables/table_0.csv": {
+    "bytes": 545,
+    "sha256": "8217fa3d743b98290552d2dca0ca1c1a7526d581021c70c51eb1aa87d4583249"
+  },
+  "syscall-pilot/workspace/tables/table_1.csv": {
+    "bytes": 538,
+    "sha256": "71bcc18db7bf68d87b0ca177b35dc1cb0cb1cd1890f332c26927244ddd8eb2d2"
+  },
+  "syscall-pilot/workspace/tables/table_2.csv": {
+    "bytes": 544,
+    "sha256": "11d3835a846d0cc8dffdb3442f97d149e47562c116ad0eaf012836c0b0f40925"
+  },
+  "syscall-pilot/workspace/tables/table_3.csv": {
+    "bytes": 536,
+    "sha256": "4299100e1ab8a7cb448b5b0d85b05ab321ff8f8322cd9f58b0b0a437026d915f"
+  },
+  "syscall-pilot/workspace/tables/table_4.csv": {
+    "bytes": 542,
+    "sha256": "ebf661d81f4c2cea9f5d77f6b6b2c8c8a6c26e99e4f424c4fa43674b708689cf"
+  },
+  "syscall-pilot/workspace/tables/table_5.csv": {
+    "bytes": 543,
+    "sha256": "444ec29ba5213d766c11aa7d3f30e9c4971adfefbe9a97659f3584555ccb009f"
+  },
+  "syscall-pilot/workspace/tables/table_6.csv": {
+    "bytes": 552,
+    "sha256": "9fb89bf1e9cfec703d75d5c2002f962bc4cc3e3f532f8bd7368979584e15d957"
+  },
+  "syscall-pilot/workspace/tables/table_7.csv": {
+    "bytes": 547,
+    "sha256": "798e2f68c15dda071da011323d70eed412e3737aad4c34fb988b5a6c5bfbe308"
+  },
+  "syscall-pilot/workspace/v11/039984c09e0c5f7c.txt": {
+    "bytes": 25,
+    "sha256": "41e9a70f93356eeb7c5d1dbd2ebdc4a016b7186984de37013bc402c4b382e3ad"
+  },
+  "syscall-pilot/workspace/v11/04928865a6fe4d8a.txt": {
+    "bytes": 25,
+    "sha256": "80c6ca0a6ae1a5e17c80271d546b087800dc3b990468b2e4a2adcd83cb042438"
+  },
+  "syscall-pilot/workspace/v11/0ac27be61d3634b9.txt": {
+    "bytes": 32,
+    "sha256": "038e82fbf7b5c04c57be468e4dd1c471d51621c1ca6cca06aa96e6cbb99762d6"
+  },
+  "syscall-pilot/workspace/v11/0bebdbd1f75465fa.txt": {
+    "bytes": 41,
+    "sha256": "7d6c154b4acdc17c01f87c8c7b62b40a664e9f21f8c86ebf067d9b9bea32d619"
+  },
+  "syscall-pilot/workspace/v11/124653c2e29e14b0.txt": {
+    "bytes": 41,
+    "sha256": "4ab8ce92f644b617985f5ef78880d08d8cafe784e12a22fe288b71dc297b4daf"
+  },
+  "syscall-pilot/workspace/v11/130460346dd27470.txt": {
+    "bytes": 41,
+    "sha256": "2c2c3cf7c7e202191177ad7c30a8cee7181a37f3000b7484e6e4018a362cda52"
+  },
+  "syscall-pilot/workspace/v11/15dd5cb741b6b1ac.txt": {
+    "bytes": 41,
+    "sha256": "c05982e79f615a76f259ddba30775c07a41d3c8ca3903940e0a712d4e83d8ac6"
+  },
+  "syscall-pilot/workspace/v11/18062a0082941ab5.txt": {
+    "bytes": 32,
+    "sha256": "3623fd26c0c0a40985b58010de6f91847d680a304bed1ea0dd4718f80f8539ad"
+  },
+  "syscall-pilot/workspace/v11/1e7283ba2568ef79.txt": {
+    "bytes": 41,
+    "sha256": "6d4b5c33736a82fa242de1063ac9b6401591d5912f5507282464cc0ef360718b"
+  },
+  "syscall-pilot/workspace/v11/265a7b6b8eadc8cf.txt": {
+    "bytes": 41,
+    "sha256": "126fd654dd0482c390e1bc30abd2f42a7865834e97b4302efbf10ac636447eb0"
+  },
+  "syscall-pilot/workspace/v11/27c1f628acb3c231.txt": {
+    "bytes": 41,
+    "sha256": "9e5cfd619d646bcce0571fc8fdd725f68bdb3708326ef47e8a5cf65284af4c26"
+  },
+  "syscall-pilot/workspace/v11/2986eaa222e8304c.txt": {
+    "bytes": 25,
+    "sha256": "50e5a54a50a6a3e5c63d4a749485818285b0d8080d4e0b7b0e2489f6ad723dca"
+  },
+  "syscall-pilot/workspace/v11/2995268fe3f6ebdb.txt": {
+    "bytes": 41,
+    "sha256": "c523bea1b821e73151cba4bc7d13ee2451793c2f4d5d59963607cd6430a2c418"
+  },
+  "syscall-pilot/workspace/v11/3a68e7ec286c36b4.txt": {
+    "bytes": 41,
+    "sha256": "3560743696d003e2fb443451339e52571e05a37911769f65d6c51dccafd0df1f"
+  },
+  "syscall-pilot/workspace/v11/3e3f4c13f2a1331d.txt": {
+    "bytes": 32,
+    "sha256": "aabecb21f468d32c73c018d2f6c544d965aaa5835c20ddec2d4d5b4eaa2a8014"
+  },
+  "syscall-pilot/workspace/v11/3e52a9794eab7ad8.txt": {
+    "bytes": 41,
+    "sha256": "bd091f651efded015223f4d0847da021a4e3c750f39d7fb6eca5294a0fa2de28"
+  },
+  "syscall-pilot/workspace/v11/4a23684780574200.txt": {
+    "bytes": 41,
+    "sha256": "bf23840caeb585ac5cfd72a7c6df1dcff2860de9abb0fbc92beef157358e2de1"
+  },
+  "syscall-pilot/workspace/v11/4a9449b6465de27f.txt": {
+    "bytes": 41,
+    "sha256": "cf59249b2c4588232b149fefea202bc497e8d19dca7d9b28a68a47c952d4699f"
+  },
+  "syscall-pilot/workspace/v11/5af50b32d6b4ea6e.txt": {
+    "bytes": 25,
+    "sha256": "5a59f11c4543c34e098fb78b7b9d8a5edd7f902449cf68d3922faebaeb0aab36"
+  },
+  "syscall-pilot/workspace/v11/5e75cc69fa40a28a.txt": {
+    "bytes": 41,
+    "sha256": "ff2db87f5bfbf7af63b726a3520466b9e355109eb4bff0cc2401cb11bf3fd1e7"
+  },
+  "syscall-pilot/workspace/v11/6138d7f16a660872.txt": {
+    "bytes": 32,
+    "sha256": "b827872d8ccf614b041f85fdd3379c46234d149dc02f51a1b95844fc80623962"
+  },
+  "syscall-pilot/workspace/v11/6ad65f703fdaefa6.txt": {
+    "bytes": 32,
+    "sha256": "75086da49551d81342c9a4bf71c937c8cec7632750341bdabb147d72a328f11e"
+  },
+  "syscall-pilot/workspace/v11/6aea574f243d9627.txt": {
+    "bytes": 41,
+    "sha256": "8d0ade3f1bfdbe8b0f2dd7ee65c32a28438b82f2174b7d4b17e8347a60227fad"
+  },
+  "syscall-pilot/workspace/v11/6d117bc1518529cf.txt": {
+    "bytes": 41,
+    "sha256": "0d387db87bdf6c5731b1eae1154a2ec401438786f3a399fae34e9fb5851134c0"
+  },
+  "syscall-pilot/workspace/v11/70dfa3a2355d7fa1.txt": {
+    "bytes": 32,
+    "sha256": "20f246620dd92381e2660d06037e9b48ca516ba0fc2f7ed37fac74d0901c9a7c"
+  },
+  "syscall-pilot/workspace/v11/713e981001383b7f.txt": {
+    "bytes": 41,
+    "sha256": "c22dc917426164ccd7517b1344b7564d63e230ef567e0c27d1d0ad7b06802303"
+  },
+  "syscall-pilot/workspace/v11/7e5da5e64ae8a29d.txt": {
+    "bytes": 41,
+    "sha256": "ac50bb1d714b999c8c64cc9e00ed7434b5a61067d76c40faaefdf9fee92d31a1"
+  },
+  "syscall-pilot/workspace/v11/7fa82817fc6cb85f.txt": {
+    "bytes": 25,
+    "sha256": "bf7627bc16b255ddf3e501638827101e3c594d73ba3f298a490b8896ddfcb6a0"
+  },
+  "syscall-pilot/workspace/v11/825796da5794e079.txt": {
+    "bytes": 41,
+    "sha256": "60687a6fd8a65b0369b46fbeb2c0bcfc63bf52d136c8947c8354c893780952e9"
+  },
+  "syscall-pilot/workspace/v11/83983a5c85c9e70a.txt": {
+    "bytes": 41,
+    "sha256": "742326feedb76dc7b907537ca57fde2250552141cf27e1cd14d5e96637a8018c"
+  },
+  "syscall-pilot/workspace/v11/83b3f25944ee6c83.txt": {
+    "bytes": 41,
+    "sha256": "0ea022344b74c95a9cb44c3224114369b1e5f2a1be3e7d35fa771dcc2bef239c"
+  },
+  "syscall-pilot/workspace/v11/8600fdff0f9639be.txt": {
+    "bytes": 25,
+    "sha256": "47e45439a620219ef6b2d021c74e17a5133edcc8d518c9ee319cb478a0c6e32e"
+  },
+  "syscall-pilot/workspace/v11/88308e94b5b6fb22.txt": {
+    "bytes": 32,
+    "sha256": "228a88dc6258f53a86378b7beb507647c7b47d93e93fa9cfc9ff7de675733d95"
+  },
+  "syscall-pilot/workspace/v11/89f67b26f3841700.txt": {
+    "bytes": 41,
+    "sha256": "c593ee520bb854c6c9b2196e21347d2fec5c8c3f0e9e54ff54de3978b9482334"
+  },
+  "syscall-pilot/workspace/v11/8fe12b520325dd73.txt": {
+    "bytes": 41,
+    "sha256": "22fe9400fbf3882a0eafd9dbb145170a00059e29dc966e8e010ebebe4d6fadb0"
+  },
+  "syscall-pilot/workspace/v11/9043b2e5d9c43836.txt": {
+    "bytes": 25,
+    "sha256": "23999aa5d83cc8e8d09d0fd002b568bd222e1326ebf114854fc0d575424efe8e"
+  },
+  "syscall-pilot/workspace/v11/92254168dc13d46f.txt": {
+    "bytes": 41,
+    "sha256": "6817a45bce876ebeffeda727a337f20fd973f0c948bc87cd984267bc517cda4f"
+  },
+  "syscall-pilot/workspace/v11/94decc890dd0d576.txt": {
+    "bytes": 25,
+    "sha256": "0f408beabf7cbe5a9ef5ba1313987253cd4f0f1c1010843abd2d30a9b65c1695"
+  },
+  "syscall-pilot/workspace/v11/95a0a7cb4c781098.txt": {
+    "bytes": 41,
+    "sha256": "a6f85f1295f89c87f06941d7faa8b2d6c70be1c4c246f70c349e35cf63fd00b7"
+  },
+  "syscall-pilot/workspace/v11/9681f14f50783099.txt": {
+    "bytes": 41,
+    "sha256": "5ad5b88c84633be44882bb1f4e15c292be33c49d7c598cc6e0006550cf1dbdef"
+  },
+  "syscall-pilot/workspace/v11/9cff92e0cd5e4456.txt": {
+    "bytes": 41,
+    "sha256": "9dd905cfb7522f734121d5ffebf41ba9d7c558d5a7723f61ae9870245fd837d1"
+  },
+  "syscall-pilot/workspace/v11/a39ed629051f5206.txt": {
+    "bytes": 41,
+    "sha256": "291ca993b61a74d5403b6646b0b1377540615a53a0f8d4c2f3e8a47de1a5a199"
+  },
+  "syscall-pilot/workspace/v11/aa600442af83a211.txt": {
+    "bytes": 41,
+    "sha256": "ff1b163cccda7158fea60b0af582040d6bed0e8d7974fbb2621f10dd2e93f6f0"
+  },
+  "syscall-pilot/workspace/v11/ab17b426b9d0f83c.txt": {
+    "bytes": 32,
+    "sha256": "bff26d8fd43e5f59649b0421f0f3c6387539d131a8e02495bbd31b61915b37f1"
+  },
+  "syscall-pilot/workspace/v11/ac8b749b2bb98fda.txt": {
+    "bytes": 41,
+    "sha256": "2895d5afa4b28f1a52b1f8952c63b7b9d1d33bf6248d881530a0ac67093f2288"
+  },
+  "syscall-pilot/workspace/v11/b13af97aa949defa.txt": {
+    "bytes": 41,
+    "sha256": "1f15ad5aae4a91eb86e7a25ddc204fb3cc2e24c4cae941e6d96cdaf90201851e"
+  },
+  "syscall-pilot/workspace/v11/cb6cd9f9a9782448.txt": {
+    "bytes": 41,
+    "sha256": "0ab75203bb40c9319a36dc438be13cf042335e0d2125ce75bc26cb411305a710"
+  },
+  "syscall-pilot/workspace/v11/d38c04145b17d4cc.txt": {
+    "bytes": 41,
+    "sha256": "898175ffda104e86ca3bcba8687e215782b7805e81b56a6ed01949e27794c4c7"
+  },
+  "syscall-pilot/workspace/v11/d5bccf7f9d5d79d3.txt": {
+    "bytes": 41,
+    "sha256": "7b2cb4b453888853c51a30a7a94b065b09bf61cc6e081075deffb1e9e9af16b6"
+  },
+  "syscall-pilot/workspace/v11/e0f6286a9481630c.txt": {
+    "bytes": 41,
+    "sha256": "0ebcbdf92495bbbfb8a9684f1e9c02016a1ac80ec0cb6ebe4679566c94800f5f"
+  },
+  "syscall-pilot/workspace/v11/e47c313b49065651.txt": {
+    "bytes": 41,
+    "sha256": "6c6969733ff7a4d60463b8b85a9f2aeb8dd077e66666943150143af1c6e37a36"
+  },
+  "syscall-pilot/workspace/v11/e6d9e958d54b11e8.txt": {
+    "bytes": 25,
+    "sha256": "28c4f5fdac862fbac70231218c3b88c96afb21aef44e17ec7cebac39da483066"
+  },
+  "syscall-pilot/workspace/v11/ecfdf0b671ef8129.txt": {
+    "bytes": 41,
+    "sha256": "0d613867727819438e0ff8941149239c48e431b08d67d8975c145ead61a568a3"
+  },
+  "syscall-pilot/workspace/v11/edd4cdbfb70ec275.txt": {
+    "bytes": 41,
+    "sha256": "0f6db5a4976384aeb12932b51cde84758294950c270f4892a81ce8da9963a1fb"
+  },
+  "syscall-pilot/workspace/v11/ee85aa999eaae6a2.txt": {
+    "bytes": 41,
+    "sha256": "5457cf34ac8bc76068ae56b303c2082c6cb3637d1c2ed2d07519068348bebb2a"
+  },
+  "syscall-pilot/workspace/v11/f091a42e253dab28.txt": {
+    "bytes": 32,
+    "sha256": "0216dcf8c112de732989ccc77a81832a129332c279b5636a43219f42c8db4fee"
+  },
+  "syscall-pilot/workspace/v11/f2eb5f3917d5af14.txt": {
+    "bytes": 25,
+    "sha256": "d44ed6c52b90fdec246423ffa6eec1c2e2e49e5d44d97bf9d07e1c47a9cb2422"
+  },
+  "syscall-pilot/workspace/v11/f2f8f39b00f5ba0d.txt": {
+    "bytes": 41,
+    "sha256": "e24d3a5c1cdc8b785e0a8b1fde6919e9cce33056823745c56a204c2af4d443ad"
+  },
+  "syscall-pilot/workspace/v11/f6c6c2904196043f.txt": {
+    "bytes": 32,
+    "sha256": "93b4a919c2f9848147534bafada0a97d58b2bd5e5128ca2074555c58e6e17c88"
+  },
+  "v1.1-pilot/README.md": {
+    "bytes": 10455,
+    "sha256": "a3f5beda8ff960773c0db85c762dbc8682f91a2b87039b664d0b63a8db9aacb5"
+  },
+  "v1.1-pilot/RESULTS.md": {
+    "bytes": 10429,
+    "sha256": "b617f984780bc6c5c90a711aa60360cd0043410941142fb071e51a5e2a94fbc8"
+  },
+  "v1.1-pilot/STATUS.md": {
+    "bytes": 894,
+    "sha256": "b383a17a5e38010ca2a7e7add3200bc25918769d3ea4ad9e87c83f78b6dc584f"
+  },
+  "v1.1-pilot/after-main.log": {
+    "bytes": 80,
+    "sha256": "350f5741e411e1493957359b1fc423cb13310e6826e09d43a8cc740d8d12b156"
+  },
+  "v1.1-pilot/after_main.sh": {
+    "bytes": 281,
+    "sha256": "8c31084f1f0c055a060610735a9cdff0b07b91d58e43b42e5524afb2f1a3ced9"
+  },
+  "v1.1-pilot/analyze.py": {
+    "bytes": 5491,
+    "sha256": "815b31abc7667f261f5f6c5c732680469a240634e556eabb6d0d0826ab3e784b"
+  },
+  "v1.1-pilot/arith_reference.py": {
+    "bytes": 13580,
+    "sha256": "f195293fa084047a985aa1f061df293d3f4291defc40bb0afb50e591c8bece4d"
+  },
+  "v1.1-pilot/arithmetic_hook.py": {
+    "bytes": 1983,
+    "sha256": "eeef0d30d2ca55840a427728abe1ca1c5d5db09d5504d229c76b382a50b923bc"
+  },
+  "v1.1-pilot/async_engine.py": {
+    "bytes": 4253,
+    "sha256": "dfad1650d5e87b0deff4d3ccd2cd2028463e5ac87ab38d47d286bd915d782f32"
+  },
+  "v1.1-pilot/brief.txt": {
+    "bytes": 12019,
+    "sha256": "07f51f4efcd7d03a5cd4a3c1b00da0369aa4fcb328d6bc98afef2df5071d7781"
+  },
+  "v1.1-pilot/call_parser.py": {
+    "bytes": 1530,
+    "sha256": "ca9a93da873c61c8be0719a2f6b11ed5ae26dbc6f4adb4aa21c392685841cfd0"
+  },
+  "v1.1-pilot/checkpoint-manifest.json": {
+    "bytes": 4156,
+    "sha256": "31a55aa9998e405a43caa8969841598a22ea779bfd415e77ce58354e99b9b6f4"
+  },
+  "v1.1-pilot/checkpoint-status.json": {
+    "bytes": 745,
+    "sha256": "647b5362e66905a4b5de3e2f0dd44dd984e5785848bd6bf8c89e0feffa594411"
+  },
+  "v1.1-pilot/continue_run.py": {
+    "bytes": 7670,
+    "sha256": "1fe87b0bb1c4e8d962fad5df86b7feeba2fa7c39df968aa243afcdc3a7134504"
+  },
+  "v1.1-pilot/cross-host.log": {
+    "bytes": 100,
+    "sha256": "cb9b8861aed97df99bdef10810d024ce64ac0ff1dfed42d5c1c5fca94254c997"
+  },
+  "v1.1-pilot/cross_host_repeat.py": {
+    "bytes": 1177,
+    "sha256": "1fa752b1196415158f6c13512c29693547eeecdcb2a797eaff598512b7bc26a7"
+  },
+  "v1.1-pilot/event_sampler.py": {
+    "bytes": 7553,
+    "sha256": "aa84f26221c62193a0835aad8525891329b7b1f7cb1574bdf65c7195232e2be5"
+  },
+  "v1.1-pilot/finish.log": {
+    "bytes": 365626,
+    "sha256": "9c93478bc63071d24810ef65c4c9af16a5f15db22dad1d19ce3173523027dd4b"
+  },
+  "v1.1-pilot/finish_run.py": {
+    "bytes": 5527,
+    "sha256": "6ebf03306635d201fd46401d85d43b800741e0c058e759b7c1b9a678330943d4"
+  },
+  "v1.1-pilot/gpu_arithmetic.py": {
+    "bytes": 3438,
+    "sha256": "fcb70f7ba8ac2877da107757bf10de5858e73a38cf657e36d18f29d62cb1981d"
+  },
+  "v1.1-pilot/infrastructure.json": {
+    "bytes": 664,
+    "sha256": "4121c43d66cbe93e98c8115cc72ee6b8448dd5b99ecc83675449ee2503b30767"
+  },
+  "v1.1-pilot/linux-tasks.json": {
+    "bytes": 10490,
+    "sha256": "f8c99404b3ab6a7d2beb2fbe7e84659204d0081883b9e56450df1f0641f7ac09"
+  },
+  "v1.1-pilot/linux_runner.py": {
+    "bytes": 1597,
+    "sha256": "7acdf13a66930a36d18679de2c445f09a03010fb082897cd8bb65c14caccb01d"
+  },
+  "v1.1-pilot/make_linux.py": {
+    "bytes": 1372,
+    "sha256": "0ba80dad2206cd26c78c79ba6d3d55ac89b825b7f4ab7a1071477de2f32c1d97"
+  },
+  "v1.1-pilot/native_tools.py": {
+    "bytes": 3858,
+    "sha256": "34fb7ee92af50dc873e3582423bad96eb714e799e0e6ff95370f4052d95ae5e4"
+  },
+  "v1.1-pilot/old_sampler.py": {
+    "bytes": 6178,
+    "sha256": "0301578f8f001e38902c837ec6e41e17252eb4367432eb7b2fe98d6e44751a6a"
+  },
+  "v1.1-pilot/pilot.py": {
+    "bytes": 17110,
+    "sha256": "709f74973363e3d07be5fef49d50fad62dc7af6fee922a6f0eb1ba242c598b25"
+  },
+  "v1.1-pilot/remote-snapshot/after-main.log": {
+    "bytes": 80,
+    "sha256": "350f5741e411e1493957359b1fc423cb13310e6826e09d43a8cc740d8d12b156"
+  },
+  "v1.1-pilot/remote-snapshot/after_main.sh": {
+    "bytes": 281,
+    "sha256": "8c31084f1f0c055a060610735a9cdff0b07b91d58e43b42e5524afb2f1a3ced9"
+  },
+  "v1.1-pilot/remote-snapshot/arith_reference.py": {
+    "bytes": 13580,
+    "sha256": "f195293fa084047a985aa1f061df293d3f4291defc40bb0afb50e591c8bece4d"
+  },
+  "v1.1-pilot/remote-snapshot/arithmetic_hook.py": {
+    "bytes": 1983,
+    "sha256": "eeef0d30d2ca55840a427728abe1ca1c5d5db09d5504d229c76b382a50b923bc"
+  },
+  "v1.1-pilot/remote-snapshot/async_engine.py": {
+    "bytes": 4253,
+    "sha256": "dfad1650d5e87b0deff4d3ccd2cd2028463e5ac87ab38d47d286bd915d782f32"
+  },
+  "v1.1-pilot/remote-snapshot/call_parser.py": {
+    "bytes": 1530,
+    "sha256": "ca9a93da873c61c8be0719a2f6b11ed5ae26dbc6f4adb4aa21c392685841cfd0"
+  },
+  "v1.1-pilot/remote-snapshot/cross-host.log": {
+    "bytes": 100,
+    "sha256": "cb9b8861aed97df99bdef10810d024ce64ac0ff1dfed42d5c1c5fca94254c997"
+  },
+  "v1.1-pilot/remote-snapshot/cross_host_repeat.py": {
+    "bytes": 1177,
+    "sha256": "1fa752b1196415158f6c13512c29693547eeecdcb2a797eaff598512b7bc26a7"
+  },
+  "v1.1-pilot/remote-snapshot/event_sampler.py": {
+    "bytes": 7553,
+    "sha256": "aa84f26221c62193a0835aad8525891329b7b1f7cb1574bdf65c7195232e2be5"
+  },
+  "v1.1-pilot/remote-snapshot/finish.log": {
+    "bytes": 365626,
+    "sha256": "9c93478bc63071d24810ef65c4c9af16a5f15db22dad1d19ce3173523027dd4b"
+  },
+  "v1.1-pilot/remote-snapshot/finish_run.py": {
+    "bytes": 5527,
+    "sha256": "6ebf03306635d201fd46401d85d43b800741e0c058e759b7c1b9a678330943d4"
+  },
+  "v1.1-pilot/remote-snapshot/gpu_arithmetic.py": {
+    "bytes": 3438,
+    "sha256": "fcb70f7ba8ac2877da107757bf10de5858e73a38cf657e36d18f29d62cb1981d"
+  },
+  "v1.1-pilot/remote-snapshot/linux-tasks.json": {
+    "bytes": 10490,
+    "sha256": "f8c99404b3ab6a7d2beb2fbe7e84659204d0081883b9e56450df1f0641f7ac09"
+  },
+  "v1.1-pilot/remote-snapshot/linux_runner.py": {
+    "bytes": 1597,
+    "sha256": "7acdf13a66930a36d18679de2c445f09a03010fb082897cd8bb65c14caccb01d"
+  },
+  "v1.1-pilot/remote-snapshot/native_tools.py": {
+    "bytes": 3858,
+    "sha256": "34fb7ee92af50dc873e3582423bad96eb714e799e0e6ff95370f4052d95ae5e4"
+  },
+  "v1.1-pilot/remote-snapshot/old_sampler.py": {
+    "bytes": 6178,
+    "sha256": "0301578f8f001e38902c837ec6e41e17252eb4367432eb7b2fe98d6e44751a6a"
+  },
+  "v1.1-pilot/remote-snapshot/pilot.py": {
+    "bytes": 17110,
+    "sha256": "709f74973363e3d07be5fef49d50fad62dc7af6fee922a6f0eb1ba242c598b25"
+  },
+  "v1.1-pilot/remote-snapshot/requirements.txt": {
+    "bytes": 86,
+    "sha256": "a96e225f85c0b977f01c8d6a00ee2882ef13214087a2605cbe63a167aa332af5"
+  },
+  "v1.1-pilot/remote-snapshot/results/analysis.json": {
+    "bytes": 11831,
+    "sha256": "c3cac974f2dfbfa39da50112608ba950fe864299ed15240df83eab0f596a0578"
+  },
+  "v1.1-pilot/remote-snapshot/results/arithmetic-delay-pre-contract.jsonl": {
+    "bytes": 35575,
+    "sha256": "6623a59258b5ced472aa05a01bed9f260b9fd20375f6f8dd43bf99c476d46d6f"
+  },
+  "v1.1-pilot/remote-snapshot/results/arithmetic-delay.jsonl": {
+    "bytes": 33909,
+    "sha256": "d3f0fe423510e9f422d74d1fb512c76462e332c2fa1fbcf99762f92884c551b5"
+  },
+  "v1.1-pilot/remote-snapshot/results/confidence-repair-repeat.jsonl": {
+    "bytes": 11686,
+    "sha256": "f1297571aace0000efd98c47cb7445cbc605b7a33d52a15aa3bded24a6f5d814"
+  },
+  "v1.1-pilot/remote-snapshot/results/confidence-repair.jsonl": {
+    "bytes": 100484,
+    "sha256": "506cc694bb41f62f47b48396fd5983149f143c66dfccbeb13b5c2ecffb99e182"
+  },
+  "v1.1-pilot/remote-snapshot/results/contract-repeat.jsonl": {
+    "bytes": 19546,
+    "sha256": "d2d5693b3a67f20b315aa797fafec80e82f9189057e929ee5320e0a3702d2d4b"
+  },
+  "v1.1-pilot/remote-snapshot/results/contract-smoke.jsonl": {
+    "bytes": 129348,
+    "sha256": "8c7f62a8821407306db9e957b21e8c0f8a9a7ffb7cb9c431c8421321f9876390"
+  },
+  "v1.1-pilot/remote-snapshot/results/contract-strengthened.jsonl": {
+    "bytes": 146615,
+    "sha256": "86579ecfa275c24a7dc9a8aaabf1d2a60e9a4686b85899344bdd2ad4461340fa"
+  },
+  "v1.1-pilot/remote-snapshot/results/cross-host-verification.json": {
+    "bytes": 248,
+    "sha256": "83b0ad020b4a063c492258ab1b3eaf644099b8db67e9c5b5397142475e0f7133"
+  },
+  "v1.1-pilot/remote-snapshot/results/delay.jsonl": {
+    "bytes": 5088,
+    "sha256": "1dfcc6c93de33b872b0d9e709ed0b1f378f28239be99ce665aadda685db52cf4"
+  },
+  "v1.1-pilot/remote-snapshot/results/edit-audit.jsonl": {
+    "bytes": 79382,
+    "sha256": "f7056b506f95e4c8d086912c9ea76808c37b900fc929ec8a7bad6626cf86b4ef"
+  },
+  "v1.1-pilot/remote-snapshot/results/environment.json": {
+    "bytes": 225,
+    "sha256": "e4c0738244472eef557b1813c17b32327434bf1f8c25036b1a09e14cde8fc17b"
+  },
+  "v1.1-pilot/remote-snapshot/results/event-test.json": {
+    "bytes": 891,
+    "sha256": "670a79c48700d386d1ccb48db0d5f948bdfe581a49ee1e80c4d1d67f66e4e080"
+  },
+  "v1.1-pilot/remote-snapshot/results/executed-source-manifest.json": {
+    "bytes": 1073,
+    "sha256": "52b51cde905b8019673e2024dc2679dab37c3aff830c7b522ae45615d240cec3"
+  },
+  "v1.1-pilot/remote-snapshot/results/final-remote-manifest.json": {
+    "bytes": 7136,
+    "sha256": "24df77daff24ee8b47f0a82076bce696491bbba106f7cae1ac356b5e7bf2da91"
+  },
+  "v1.1-pilot/remote-snapshot/results/full.jsonl": {
+    "bytes": 2930969,
+    "sha256": "7459a92fc80ef42349ea47e3c4860f15d9c03f3e603f3bad5300632fd925a86b"
+  },
+  "v1.1-pilot/remote-snapshot/results/gates.json": {
+    "bytes": 423,
+    "sha256": "89d1dc7cd7fe543eb429a87a2927790c3567dade07b89d0959810dc8451937b6"
+  },
+  "v1.1-pilot/remote-snapshot/results/hidden-delay.jsonl": {
+    "bytes": 29806,
+    "sha256": "17889c0db545d9301f4f6bc25a5f9a667eae32ab905078acf39259565657ccde"
+  },
+  "v1.1-pilot/remote-snapshot/results/legacy-baseline.jsonl": {
+    "bytes": 22458,
+    "sha256": "fbc87e282e7edfe5c3b98e82700ed270c2bdabbe61a7f387a2c4c029f3ec252a"
+  },
+  "v1.1-pilot/remote-snapshot/results/legacy-repeat.jsonl": {
+    "bytes": 2737,
+    "sha256": "d13ab51caca0fc09b3960dcc5005e5741f7e8d708001941c29ddbafda76ef523"
+  },
+  "v1.1-pilot/remote-snapshot/results/linux.jsonl": {
+    "bytes": 314303,
+    "sha256": "02f7cc198e04d315f5bfeb6d64c4ee95603a2fb6d8afea709ac675994d1174a1"
+  },
+  "v1.1-pilot/remote-snapshot/results/mid.jsonl": {
+    "bytes": 953691,
+    "sha256": "f6961c5851cc1efd2e8dad6449f2a2fde0d116408af2b28f1e2ee6609fd45ace"
+  },
+  "v1.1-pilot/remote-snapshot/results/original-tasks.json": {
+    "bytes": 15829,
+    "sha256": "e2561635e1450486f3e8af72cd1c536da2ffccda41626b14dbd5ff4813c221c5"
+  },
+  "v1.1-pilot/remote-snapshot/results/repeat-pre-confidence-fix.jsonl": {
+    "bytes": 41657,
+    "sha256": "cadf3083aeaa631b390ea90736407332b9514212aa1b48f84e1121cf318dce0c"
+  },
+  "v1.1-pilot/remote-snapshot/results/repeat-pre-contract.jsonl": {
+    "bytes": 47193,
+    "sha256": "ed9ee486a4a8fc94f1de91c0335f39eeac9d1dfadaf9f857c3b947a99a45151e"
+  },
+  "v1.1-pilot/remote-snapshot/results/repeat.jsonl": {
+    "bytes": 49778,
+    "sha256": "c4c75acf9edc8ddbd28b2dfe0e7cc3d62dc377ed912c682421cd72f641775f72"
+  },
+  "v1.1-pilot/remote-snapshot/results/replacement-environment.json": {
+    "bytes": 175,
+    "sha256": "c5da12c401ca271d255185244a3498c127a06ed663ba550ec378d5e04ec55e7e"
+  },
+  "v1.1-pilot/remote-snapshot/results/smoke-before-native-examples.jsonl": {
+    "bytes": 153703,
+    "sha256": "49d70bd7673b60d24f11f2b3243dcbdc509370da695b02a09880beed963130fe"
+  },
+  "v1.1-pilot/remote-snapshot/results/smoke-pre-confidence-fix.jsonl": {
+    "bytes": 411961,
+    "sha256": "9cc1e501a24adbc3f6e9de3d610edfb1cb1661879f14580d551b65870cc7c927"
+  },
+  "v1.1-pilot/remote-snapshot/results/smoke-pre-contract.jsonl": {
+    "bytes": 412676,
+    "sha256": "6c0523e4227093f91a00c7f4b59e63d6c8ba94a73c7b0c00794fcbdfe9cdd7f7"
+  },
+  "v1.1-pilot/remote-snapshot/results/smoke.jsonl": {
+    "bytes": 415314,
+    "sha256": "42cbc18ea60cd808f068d1be4ed2f98ecdc7fbd90ada839b34d48a9d5113049f"
+  },
+  "v1.1-pilot/remote-snapshot/results/tasks240.json": {
+    "bytes": 102474,
+    "sha256": "803bebf70eceba7fac5378a8c7453e4bbb697e9799c07351779b4194dcf4feaf"
+  },
+  "v1.1-pilot/remote-snapshot/results/upstream-pre-contract.jsonl": {
+    "bytes": 1069,
+    "sha256": "fa3a2d73c2f9af124c6117c662c4de66ba38ed7dedab9a679856a297eab2cba9"
+  },
+  "v1.1-pilot/remote-snapshot/results/upstream.jsonl": {
+    "bytes": 758,
+    "sha256": "116dc22d22ce2c8f3b11c64f4e7f22318bfd9c18b677214f11b9beefa66d6291"
+  },
+  "v1.1-pilot/remote-snapshot/results/variant-delay.jsonl": {
+    "bytes": 47972,
+    "sha256": "329530659f156abb7c18e0fa0ad7ba2e8c6314a7faf5ca0842074cc0dd2430a1"
+  },
+  "v1.1-pilot/report.py": {
+    "bytes": 17447,
+    "sha256": "ff828be9b98b3a18d6a336834c22ff001d86144fd8d8260d3d2c91d3312a500a"
+  },
+  "v1.1-pilot/requirements.txt": {
+    "bytes": 86,
+    "sha256": "a96e225f85c0b977f01c8d6a00ee2882ef13214087a2605cbe63a167aa332af5"
+  },
+  "v1.1-pilot/results/analysis.json": {
+    "bytes": 25196,
+    "sha256": "fa46b1671636d3cc3a490d9c042494a887b56a382c5838cc4b53b74c292b90a0"
+  },
+  "v1.1-pilot/results/arithmetic-delay-pre-contract.jsonl": {
+    "bytes": 35575,
+    "sha256": "6623a59258b5ced472aa05a01bed9f260b9fd20375f6f8dd43bf99c476d46d6f"
+  },
+  "v1.1-pilot/results/arithmetic-delay.jsonl": {
+    "bytes": 33909,
+    "sha256": "d3f0fe423510e9f422d74d1fb512c76462e332c2fa1fbcf99762f92884c551b5"
+  },
+  "v1.1-pilot/results/confidence-repair-repeat.jsonl": {
+    "bytes": 11686,
+    "sha256": "f1297571aace0000efd98c47cb7445cbc605b7a33d52a15aa3bded24a6f5d814"
+  },
+  "v1.1-pilot/results/confidence-repair.jsonl": {
+    "bytes": 100484,
+    "sha256": "506cc694bb41f62f47b48396fd5983149f143c66dfccbeb13b5c2ecffb99e182"
+  },
+  "v1.1-pilot/results/contract-repeat.jsonl": {
+    "bytes": 19546,
+    "sha256": "d2d5693b3a67f20b315aa797fafec80e82f9189057e929ee5320e0a3702d2d4b"
+  },
+  "v1.1-pilot/results/contract-smoke.jsonl": {
+    "bytes": 129348,
+    "sha256": "8c7f62a8821407306db9e957b21e8c0f8a9a7ffb7cb9c431c8421321f9876390"
+  },
+  "v1.1-pilot/results/contract-strengthened.jsonl": {
+    "bytes": 146615,
+    "sha256": "86579ecfa275c24a7dc9a8aaabf1d2a60e9a4686b85899344bdd2ad4461340fa"
+  },
+  "v1.1-pilot/results/cross-host-reload-diagnostic.json": {
+    "bytes": 430,
+    "sha256": "4028091e465c2067afde6743ec4052cace1d32702ead459336e6d20c42a19ee0"
+  },
+  "v1.1-pilot/results/cross-host-verification.json": {
+    "bytes": 248,
+    "sha256": "83b0ad020b4a063c492258ab1b3eaf644099b8db67e9c5b5397142475e0f7133"
+  },
+  "v1.1-pilot/results/delay.jsonl": {
+    "bytes": 5088,
+    "sha256": "1dfcc6c93de33b872b0d9e709ed0b1f378f28239be99ce665aadda685db52cf4"
+  },
+  "v1.1-pilot/results/edit-audit.jsonl": {
+    "bytes": 79382,
+    "sha256": "f7056b506f95e4c8d086912c9ea76808c37b900fc929ec8a7bad6626cf86b4ef"
+  },
+  "v1.1-pilot/results/environment.json": {
+    "bytes": 225,
+    "sha256": "e4c0738244472eef557b1813c17b32327434bf1f8c25036b1a09e14cde8fc17b"
+  },
+  "v1.1-pilot/results/evaluated-linux.jsonl": {
+    "bytes": 316488,
+    "sha256": "ddacb00d46f124cb0efbb94ab7224cb8c6b2aa200fe74c7a72fb33eea6ce1efa"
+  },
+  "v1.1-pilot/results/event-test.json": {
+    "bytes": 891,
+    "sha256": "670a79c48700d386d1ccb48db0d5f948bdfe581a49ee1e80c4d1d67f66e4e080"
+  },
+  "v1.1-pilot/results/executed-source-manifest.json": {
+    "bytes": 1073,
+    "sha256": "52b51cde905b8019673e2024dc2679dab37c3aff830c7b522ae45615d240cec3"
+  },
+  "v1.1-pilot/results/final-gates.json": {
+    "bytes": 874,
+    "sha256": "1ce75478ab6d37f483bf7bb17666630342377eabec01dd8a16f644cc12ce985d"
+  },
+  "v1.1-pilot/results/final-local-copy-verification.json": {
+    "bytes": 321,
+    "sha256": "477bac4e1e51c10a930fc8e31aea9738fdcd073ec934d7d3b54cc4240f85a804"
+  },
+  "v1.1-pilot/results/final-remote-manifest.json": {
+    "bytes": 7136,
+    "sha256": "24df77daff24ee8b47f0a82076bce696491bbba106f7cae1ac356b5e7bf2da91"
+  },
+  "v1.1-pilot/results/final-verification.json": {
+    "bytes": 562,
+    "sha256": "f5eb4aaec4052c5e207a1c8bb660f6e26c93169fc9ed74be92a64e10685a2dbb"
+  },
+  "v1.1-pilot/results/full.jsonl": {
+    "bytes": 2930969,
+    "sha256": "7459a92fc80ef42349ea47e3c4860f15d9c03f3e603f3bad5300632fd925a86b"
+  },
+  "v1.1-pilot/results/gates.json": {
+    "bytes": 423,
+    "sha256": "89d1dc7cd7fe543eb429a87a2927790c3567dade07b89d0959810dc8451937b6"
+  },
+  "v1.1-pilot/results/hidden-delay.jsonl": {
+    "bytes": 29806,
+    "sha256": "17889c0db545d9301f4f6bc25a5f9a667eae32ab905078acf39259565657ccde"
+  },
+  "v1.1-pilot/results/legacy-baseline.jsonl": {
+    "bytes": 22458,
+    "sha256": "fbc87e282e7edfe5c3b98e82700ed270c2bdabbe61a7f387a2c4c029f3ec252a"
+  },
+  "v1.1-pilot/results/legacy-repeat.jsonl": {
+    "bytes": 2737,
+    "sha256": "d13ab51caca0fc09b3960dcc5005e5741f7e8d708001941c29ddbafda76ef523"
+  },
+  "v1.1-pilot/results/linux.jsonl": {
+    "bytes": 314303,
+    "sha256": "02f7cc198e04d315f5bfeb6d64c4ee95603a2fb6d8afea709ac675994d1174a1"
+  },
+  "v1.1-pilot/results/mid.jsonl": {
+    "bytes": 953691,
+    "sha256": "f6961c5851cc1efd2e8dad6449f2a2fde0d116408af2b28f1e2ee6609fd45ace"
+  },
+  "v1.1-pilot/results/original-tasks.json": {
+    "bytes": 15829,
+    "sha256": "e2561635e1450486f3e8af72cd1c536da2ffccda41626b14dbd5ff4813c221c5"
+  },
+  "v1.1-pilot/results/repeat-pre-confidence-fix.jsonl": {
+    "bytes": 41657,
+    "sha256": "cadf3083aeaa631b390ea90736407332b9514212aa1b48f84e1121cf318dce0c"
+  },
+  "v1.1-pilot/results/repeat-pre-contract.jsonl": {
+    "bytes": 47193,
+    "sha256": "ed9ee486a4a8fc94f1de91c0335f39eeac9d1dfadaf9f857c3b947a99a45151e"
+  },
+  "v1.1-pilot/results/repeat.jsonl": {
+    "bytes": 49778,
+    "sha256": "c4c75acf9edc8ddbd28b2dfe0e7cc3d62dc377ed912c682421cd72f641775f72"
+  },
+  "v1.1-pilot/results/replacement-environment.json": {
+    "bytes": 175,
+    "sha256": "c5da12c401ca271d255185244a3498c127a06ed663ba550ec378d5e04ec55e7e"
+  },
+  "v1.1-pilot/results/residual-mask-audit.json": {
+    "bytes": 3030,
+    "sha256": "e99f12ec5fcfc6daa2ec24588e3aa99494eafd412ed122c53c45b413055b0125"
+  },
+  "v1.1-pilot/results/shutdown-verification.json": {
+    "bytes": 406,
+    "sha256": "9ed50cf06566d15b2f27d13b28aac5dac8c0e5ac88006de5c9a70e9a58b484b3"
+  },
+  "v1.1-pilot/results/smoke-before-native-examples.jsonl": {
+    "bytes": 153703,
+    "sha256": "49d70bd7673b60d24f11f2b3243dcbdc509370da695b02a09880beed963130fe"
+  },
+  "v1.1-pilot/results/smoke-pre-confidence-fix.jsonl": {
+    "bytes": 411961,
+    "sha256": "9cc1e501a24adbc3f6e9de3d610edfb1cb1661879f14580d551b65870cc7c927"
+  },
+  "v1.1-pilot/results/smoke-pre-contract.jsonl": {
+    "bytes": 412676,
+    "sha256": "6c0523e4227093f91a00c7f4b59e63d6c8ba94a73c7b0c00794fcbdfe9cdd7f7"
+  },
+  "v1.1-pilot/results/smoke.jsonl": {
+    "bytes": 415314,
+    "sha256": "42cbc18ea60cd808f068d1be4ed2f98ecdc7fbd90ada839b34d48a9d5113049f"
+  },
+  "v1.1-pilot/results/stale-completion-audit.json": {
+    "bytes": 111,
+    "sha256": "c2b99a771ba8571f3ff9e03dc0ae15e412314355def271f3974cb996544ce2b2"
+  },
+  "v1.1-pilot/results/tasks240.json": {
+    "bytes": 102474,
+    "sha256": "803bebf70eceba7fac5378a8c7453e4bbb697e9799c07351779b4194dcf4feaf"
+  },
+  "v1.1-pilot/results/upstream-pre-contract.jsonl": {
+    "bytes": 1069,
+    "sha256": "fa3a2d73c2f9af124c6117c662c4de66ba38ed7dedab9a679856a297eab2cba9"
+  },
+  "v1.1-pilot/results/upstream.jsonl": {
+    "bytes": 758,
+    "sha256": "116dc22d22ce2c8f3b11c64f4e7f22318bfd9c18b677214f11b9beefa66d6291"
+  },
+  "v1.1-pilot/results/variant-delay.jsonl": {
+    "bytes": 47972,
+    "sha256": "329530659f156abb7c18e0fa0ad7ba2e8c6314a7faf5ca0842074cc0dd2430a1"
+  },
+  "v1.1-pilot/source-manifest.json": {
+    "bytes": 1239,
+    "sha256": "b5373e360ecb0f40db7f303cd1ee43619a922ff7a66ef9d011a382c0a0834306"
+  },
+  "v1.1-pilot/source-snapshots/pre-contract/pilot.py": {
+    "bytes": 16782,
+    "sha256": "706c178596750a707693c18ee275a7257ed6a4460283c4ffc1a6711b68b77c4e"
+  },
+  "v1.1-pilot/test_event.py": {
+    "bytes": 1173,
+    "sha256": "fe00185185cfa553c6426b097e4108e5d0c61258cc895ac4fb50752bd73aaa8c"
+  },
+  "v1.1-pilot/workspace-before-linux.json": {
+    "bytes": 7345,
+    "sha256": "a1adbf99ac273a1aa5717b4965f037f4fdd4a546b3a68b51269fa9e29be8d230"
+  }
+}

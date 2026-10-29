@@ -1,0 +1,18 @@
+{
+  "gateway": {
+    "pid": 67858,
+    "action": "SIGTERM"
+  },
+  "tunnel": {
+    "pid": 67868,
+    "action": "already exited or not matching"
+  },
+  "caffeinate": {
+    "pid": 67869,
+    "action": "SIGTERM"
+  },
+  "sync": {
+    "pid": 68242,
+    "action": "SIGTERM"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "smoke": {
+    "A0": {
+      "n": 36,
+      "fired": 0,
+      "firing_rate": 0.0,
+      "use_numerator": 0,
+      "use_denominator": 0,
+      "use_rate": null,
+      "regressions": 0,
+      "right_base": 23,
+      "regression_rate": 0.0,
+      "failed_opportunities": {
+        "absent": 36
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 158.51866487623192,
+      "direct": {
+        "correct": 12,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "dependent": {
+        "correct": 11,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "A1": {
+      "n": 36,
+      "fired": 1,
+      "firing_rate": 0.027777777777777776,
+      "use_numerator": 1,
+      "use_denominator": 1,
+      "use_rate": 1.0,
+      "regressions": 0,
+      "right_base": 24,
+      "regression_rate": 0.0,
+      "failed_opportunities": {
+        "occupied": 35
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 149.28104044310749,
+      "direct": {
+        "correct": 12,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "dependent": {
+        "correct": 13,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 1,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "A2": {
+      "n": 36,
+      "fired": 18,
+      "firing_rate": 0.5,
+      "use_numerator": 6,
+      "use_denominator": 11,
+      "use_rate": 0.5454545454545454,
+      "regressions": 13,
+      "right_base": 23,
+      "regression_rate": 0.5652173913043478,
+      "failed_opportunities": {
+        "absent": 18
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 201.44778971048072,
+      "direct": {
+        "correct": 11,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 5,
+        "exact_mcnemar_p": 1.0
+      },
+      "dependent": {
+        "correct": 5,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 2,
+        "right_to_wrong": 8,
+        "exact_mcnemar_p": 0.109375
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 5,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "A4": {
+      "n": 36,
+      "fired": 36,
+      "firing_rate": 1.0,
+      "use_numerator": 11,
+      "use_denominator": 15,
+      "use_rate": 0.7333333333333333,
+      "regressions": 4,
+      "right_base": 21,
+      "regression_rate": 0.19047619047619047,
+      "failed_opportunities": {},
+      "midblock": 15,
+      "arrivals": 36,
+      "remasks": 36,
+      "lock_violations": 0,
+      "seconds": 106.13609779195394,
+      "direct": {
+        "correct": 13,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 5,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.453125
+      },
+      "dependent": {
+        "correct": 15,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 6,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.2890625
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 3,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "A5": {
+      "n": 36,
+      "fired": 36,
+      "firing_rate": 1.0,
+      "use_numerator": 9,
+      "use_denominator": 12,
+      "use_rate": 0.75,
+      "regressions": 5,
+      "right_base": 24,
+      "regression_rate": 0.20833333333333334,
+      "failed_opportunities": {},
+      "midblock": 22,
+      "arrivals": 36,
+      "remasks": 36,
+      "lock_violations": 0,
+      "seconds": 76.2616769206943,
+      "direct": {
+        "correct": 16,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 9,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.0654296875
+      },
+      "dependent": {
+        "correct": 12,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 3,
+        "exact_mcnemar_p": 0.25
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "reference_adoption": 0.0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 6,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.2890625
+      }
+    },
+    "A7": {
+      "n": 36,
+      "fired": 36,
+      "firing_rate": 1.0,
+      "use_numerator": 15,
+      "use_denominator": 15,
+      "use_rate": 1.0,
+      "regressions": 0,
+      "right_base": 21,
+      "regression_rate": 0.0,
+      "failed_opportunities": {},
+      "midblock": 15,
+      "arrivals": 36,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 133.64765163278207,
+      "direct": {
+        "correct": 18,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 8,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 0.0078125
+      },
+      "dependent": {
+        "correct": 18,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 7,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 0.015625
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 6,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 0.03125
+      }
+    },
+    "M4": {
+      "n": 36,
+      "fired": 0,
+      "firing_rate": 0.0,
+      "use_numerator": 0,
+      "use_denominator": 0,
+      "use_rate": null,
+      "regressions": 3,
+      "right_base": 23,
+      "regression_rate": 0.13043478260869565,
+      "failed_opportunities": {
+        "absent": 36
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 138.39681956195273,
+      "direct": {
+        "correct": 10,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.5
+      },
+      "dependent": {
+        "correct": 11,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 1,
+        "right_to_wrong": 1,
+        "exact_mcnemar_p": 1.0
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 2,
+        "exact_mcnemar_p": 0.5
+      }
+    },
+    "M5": {
+      "n": 36,
+      "fired": 0,
+      "firing_rate": 0.0,
+      "use_numerator": 0,
+      "use_denominator": 0,
+      "use_rate": null,
+      "regressions": 3,
+      "right_base": 23,
+      "regression_rate": 0.13043478260869565,
+      "failed_opportunities": {
+        "absent": 36
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 155.94486947974656,
+      "direct": {
+        "correct": 9,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 3,
+        "exact_mcnemar_p": 0.25
+      },
+      "dependent": {
+        "correct": 15,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 0.125
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 3,
+        "exact_mcnemar_p": 0.25
+      }
+    },
+    "A3": {
+      "n": 36,
+      "fired": 18,
+      "firing_rate": 0.5,
+      "use_numerator": 6,
+      "use_denominator": 11,
+      "use_rate": 0.5454545454545454,
+      "regressions": 13,
+      "right_base": 23,
+      "regression_rate": 0.5652173913043478,
+      "failed_opportunities": {
+        "absent": 18
+      },
+      "midblock": 12,
+      "arrivals": 18,
+      "remasks": 18,
+      "lock_violations": 0,
+      "seconds": 216.75230587704573,
+      "direct": {
+        "correct": 11,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 5,
+        "exact_mcnemar_p": 1.0
+      },
+      "dependent": {
+        "correct": 5,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 2,
+        "right_to_wrong": 8,
+        "exact_mcnemar_p": 0.109375
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 12,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 4,
+        "right_to_wrong": 5,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "M1": {
+      "n": 36,
+      "fired": 0,
+      "firing_rate": 0.0,
+      "use_numerator": 0,
+      "use_denominator": 0,
+      "use_rate": null,
+      "regressions": 0,
+      "right_base": 23,
+      "regression_rate": 0.0,
+      "failed_opportunities": {
+        "absent": 36
+      },
+      "midblock": 0,
+      "arrivals": 0,
+      "remasks": 0,
+      "lock_violations": 0,
+      "seconds": 156.11468629539013,
+      "direct": {
+        "correct": 12,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "dependent": {
+        "correct": 12,
+        "n": 18,
+        "paired_n": 18,
+        "wrong_to_right": 1,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      },
+      "injected_operand_errors": 0,
+      "stale_completions": 0,
+      "stray_effects": 0,
+      "midblock_before_eos": 0,
+      "direct_vs_A0": {
+        "paired_n": 18,
+        "wrong_to_right": 0,
+        "right_to_wrong": 0,
+        "exact_mcnemar_p": 1.0
+      }
+    }
+  },
+  "full": {},
+  "mid": {},
+  "reproducibility": {
+    "n": 45,
+    "identical": 45,
+    "mismatches": []
+  },
+  "delay": [
+    {
+      "delay": 0,
+      "f3": false,
+      "used": true,
+      "remasks": 0,
+      "lock_violations": 0
+    },
+    {
+      "delay": 0,
+      "f3": true,
+      "used": true,
+      "remasks": 0,
+      "lock_violations": 0
+    },
+    {
+      "delay": 10,
+      "f3": false,
+      "used": false,
+      "remasks": 0,
+      "lock_violations": 0
+    },
+    {
+      "delay": 10,
+      "f3": true,
+      "used": true,
+      "remasks": 1,
+      "lock_violations": 0
+    },
+    {
+      "delay": 20,
+      "f3": false,
+      "used": false,
+      "remasks": 0,
+      "lock_violations": 0
+    },
+    {
+      "delay": 20,
+      "f3": true,
+      "used": true,
+      "remasks": 1,
+      "lock_violations": 0
+    },
+    {
+      "delay": 40,
+      "f3": false,
+      "used": false,
+      "remasks": 0,
+      "lock_violations": 0
+    },
+    {
+      "delay": 40,
+      "f3": true,
+      "used": true,
+      "remasks": 1,
+      "lock_violations": 0
+    }
+  ],
+  "linux": {}
+}

@@ -1,0 +1,41 @@
+{
+  "last_successful_remote_copy_timestamp": 1793246026.521754,
+  "last_copy_files_verified": {
+    "results-v1.2/cache-staging.json": true,
+    "results-v1.2/delay.jsonl": true,
+    "results-v1.2/environment.json": true,
+    "results-v1.2/frozen-source-manifest.json": true,
+    "results-v1.2/linux.jsonl": true,
+    "results-v1.2/prerequisite-reproduction.jsonl": true,
+    "results-v1.2/prerequisite-smoke.jsonl": true,
+    "results-v1.2/prerequisites.json": true,
+    "results-v1.2/smoke-tasks.json": true,
+    "results-v1.2/tasks240.json": true,
+    "results-v1.2/unit-tests-gpu.json": true,
+    "results-v1.2/unit-tests.json": true,
+    "run.log": true
+  },
+  "frozen_runtime_source_verified": {
+    "PROTOCOL.md": true,
+    "arithmetic_hook.py": true,
+    "linux-tasks.json": true,
+    "event_sampler.py": true,
+    "call_parser.py": true,
+    "wait_adapter.py": true,
+    "run_v12.py": true,
+    "v11-reference.json": true,
+    "native_tools.py": true,
+    "test_wait.py": true,
+    "async_engine.py": true,
+    "gpu_arithmetic.py": true,
+    "arith_reference.py": true,
+    "requirements.txt": true,
+    "brief.txt": true,
+    "linux_runner.py": true,
+    "pilot.py": true,
+    "old_sampler.py": true
+  },
+  "fresh_post_shutdown_remote_read_possible": false,
+  "reason": "Pod stopped; user requested analysis without resuming",
+  "time": 1793246503.3109398
+}

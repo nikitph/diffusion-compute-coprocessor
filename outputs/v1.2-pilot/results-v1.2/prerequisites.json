@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reproduced": 5,
+  "smoke_prompts": 36,
+  "smoke_conditions": [
+    "M4",
+    "A7",
+    "A7W"
+  ],
+  "smoke_records": 108,
+  "residual_masks": 0
+}

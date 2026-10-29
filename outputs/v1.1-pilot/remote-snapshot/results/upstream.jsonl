@@ -1,0 +1,6 @@
+{"id": 0, "kind": "direct", "text": "91008 + 83201 = 174209\n\nAnswer: 174209", "prediction": "174209", "correct": true}
+{"id": 1, "kind": "dependent", "text": "174209 > 174205 is YES.\n\nAnswer: YES", "prediction": "YES", "correct": true}
+{"id": 2, "kind": "direct", "text": "14927 + 75437 = 90364\n\nAnswer: 90364", "prediction": "90364", "correct": true}
+{"id": 3, "kind": "dependent", "text": "90364 is not greater than 90367.\n\nAnswer: NO", "prediction": "NO", "correct": true}
+{"id": 4, "kind": "direct", "text": "44452 - 10947 = 33505\nAnswer: 33505", "prediction": "33505", "correct": true}
+{"id": 5, "kind": "dependent", "text": "44452 - 10947 = 33505\n\n33505 is strictly greater than 33501.\n\nAnswer: YES", "prediction": "YES", "correct": true}

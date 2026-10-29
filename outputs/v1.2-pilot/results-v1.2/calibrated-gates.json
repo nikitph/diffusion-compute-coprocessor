@@ -1,0 +1,8 @@
+{
+  "H1": "Not fully evaluated: matched subset 3/14 wait = 3/14 conventional > 1/14 async; six tasks missing",
+  "H2": "PASS: wait 4/7 = conventional 4/7",
+  "H3": "FAIL: wait hidden 4/6 and arithmetic 3/6 at every delay",
+  "H4": "NOT RUN: 240-task comparison absent; smoke only",
+  "H5": "NOT RUN: block-64 comparison absent",
+  "H6": "Observed counters clean; full planned matrix incomplete"
+}

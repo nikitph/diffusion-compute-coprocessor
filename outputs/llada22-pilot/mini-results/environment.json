@@ -1,0 +1,13 @@
+{
+  "model": "inclusionAI/LLaDA2.2-mini",
+  "revision": "e4f77d25ab5ca86f2223c6cdc6a72b887e20c8a5",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "sampler": "protected fixed-position block diffusion",
+  "block_length": 32,
+  "steps": 8,
+  "post_steps": 2,
+  "structural_edits": false,
+  "token_to_token_edits": true,
+  "batch_size": 1
+}

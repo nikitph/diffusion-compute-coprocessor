@@ -1,0 +1,18 @@
+{
+  "lock_violations": 0,
+  "stray_effects": 0,
+  "stale_completions": 1,
+  "max_remasks_per_task": 2,
+  "exhausted_sampler_stages": 0,
+  "pending_sampler_stages": 0,
+  "residual_mask_tokens": 551,
+  "records_with_residual_masks": 25,
+  "residual_mask_records_scored_correct": 0,
+  "unexpected_workspace_changes": [],
+  "literal_write_contents_exact": true,
+  "stale_completions_same_arithmetic": 1,
+  "kernel_outputs_independently_rechecked": 1317,
+  "injected_operand_mismatches": 1,
+  "executed_source_files_verified": 12,
+  "executed_source_mismatches": []
+}

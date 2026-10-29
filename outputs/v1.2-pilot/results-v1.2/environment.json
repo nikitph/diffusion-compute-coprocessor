@@ -1,0 +1,18 @@
+{
+  "model": "inclusionAI/LLaDA2.2-mini",
+  "revision": "e4f77d25ab5ca86f2223c6cdc6a72b887e20c8a5",
+  "torch": "2.8.0+cu128",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "seed": 20261028,
+  "batch": 1,
+  "dtype": "BF16",
+  "fine_tuning": false,
+  "delay_calibration": {
+    "cohort": "v1.1 full A7, all 240 records",
+    "seconds": 939.9638081484009,
+    "forward_calls": 2701,
+    "mean_step_seconds": 0.34800585270211065,
+    "definition": "sum sampler seconds / sum forward calls; includes sampler overhead and near-instant arithmetic insertion, no artificial delayed controls",
+    "source_sha256": "7459a92fc80ef42349ea47e3c4860f15d9c03f3e603f3bad5300632fd925a86b"
+  }
+}

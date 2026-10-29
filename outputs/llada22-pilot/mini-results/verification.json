@@ -1,0 +1,6 @@
+{
+  "arithmetic_records": 108,
+  "injected_arithmetic_rechecked_with_python": true,
+  "all_arithmetic_locks_survived": true,
+  "write_file_contents_verified": true
+}

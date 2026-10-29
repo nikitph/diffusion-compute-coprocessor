@@ -1,0 +1,144 @@
+{
+  "tools": {
+    "async": {
+      "n": 7,
+      "exact": 1,
+      "answer_present": 3,
+      "valid_calls": 5,
+      "received": 5,
+      "mean_seconds": 7.408047571312636
+    },
+    "base": {
+      "n": 7,
+      "exact": 1,
+      "answer_present": 1,
+      "valid_calls": 0,
+      "received": 0,
+      "mean_seconds": 3.7694060101473172
+    },
+    "conventional": {
+      "n": 7,
+      "exact": 1,
+      "answer_present": 3,
+      "valid_calls": 5,
+      "received": 5,
+      "mean_seconds": 8.768733926233836
+    }
+  },
+  "dense_controls": {
+    "protected_dense": {
+      "n": 5,
+      "exact": 1,
+      "answer_present": 4,
+      "valid_calls": 0,
+      "received": 0,
+      "mean_seconds": 6.448411541827954
+    },
+    "upstream_dense": {
+      "n": 5,
+      "exact": 1,
+      "answer_present": 4,
+      "valid_calls": 0,
+      "received": 0,
+      "mean_seconds": 5.041526570008136
+    }
+  },
+  "arithmetic": {
+    "base": {
+      "direct": {
+        "correct": 7,
+        "n": 18
+      },
+      "dependent": {
+        "correct": 14,
+        "n": 18
+      },
+      "sampling_seconds": 124.7231444104109
+    },
+    "mid": {
+      "direct": {
+        "correct": 11,
+        "n": 18
+      },
+      "dependent": {
+        "correct": 14,
+        "n": 18
+      },
+      "sampling_seconds": 122.6518302304903,
+      "injections": 7,
+      "matching_operands": 7
+    },
+    "posthoc": {
+      "direct": {
+        "correct": 16,
+        "n": 18
+      },
+      "dependent": {
+        "correct": 14,
+        "n": 18
+      }
+    }
+  },
+  "read_compute_tasks": {
+    "base": {
+      "n": 6,
+      "exact": 0,
+      "answer_present": 0
+    },
+    "conventional": {
+      "n": 6,
+      "exact": 0,
+      "answer_present": 2
+    },
+    "async": {
+      "n": 6,
+      "exact": 0,
+      "answer_present": 2
+    }
+  },
+  "write_task": {
+    "base": {
+      "answer_correct": true,
+      "executed_successfully": false
+    },
+    "conventional": {
+      "answer_correct": true,
+      "executed_successfully": true
+    },
+    "async": {
+      "answer_correct": true,
+      "executed_successfully": true
+    }
+  },
+  "async": {
+    "injected_answer_steps": [
+      0,
+      0,
+      2,
+      0,
+      2
+    ],
+    "event_counts": {
+      "barrier": 75,
+      "submit": 5,
+      "completion": 5
+    },
+    "effect_submissions": [
+      {
+        "type": "submit",
+        "anchor": "functions.write_file:0",
+        "step": 6,
+        "call": {
+          "name": "write_file",
+          "args": {
+            "data": "native-written-7319",
+            "path": "model_writes/native.txt"
+          }
+        },
+        "committed": true,
+        "effect": true
+      }
+    ],
+    "lock_violations": 0
+  }
+}

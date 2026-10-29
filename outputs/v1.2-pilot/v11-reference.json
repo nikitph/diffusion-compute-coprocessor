@@ -1,0 +1,343 @@
+{
+  "A7_first5_smoke": [
+    {
+      "id": 0,
+      "kind": "direct",
+      "condition": "A7",
+      "block": 32,
+      "delay": 0,
+      "text": "91008 + 83201 = Answer: 174209",
+      "raw_text": "91008 + 83201 = Answer: 174209",
+      "expected": "174209",
+      "prediction": "174209",
+      "correct": true,
+      "metrics": {
+        "seconds": 3.676634124945849,
+        "forward_calls": 11,
+        "events": [
+          {
+            "type": "splice",
+            "step": 0,
+            "position": 203,
+            "old_width": 8,
+            "new_width": 6,
+            "old_prompt": 212,
+            "new_prompt": 210
+          },
+          {
+            "type": "native_edit_revisit",
+            "result": "r1",
+            "step": 0,
+            "count": 10,
+            "positions": [
+              210,
+              211,
+              212,
+              213,
+              214,
+              215,
+              216,
+              219,
+              220,
+              221
+            ],
+            "attention_diagnostic": "unavailable in SDPA path"
+          },
+          {
+            "type": "arrival",
+            "result": "r1",
+            "step": 0,
+            "midblock": true,
+            "remasked_tokens": 0
+          }
+        ],
+        "lock_violations": 0,
+        "remask_count": 1,
+        "pending_at_end": false,
+        "step_budget_exhausted": false,
+        "residual_masks": 0
+      },
+      "injection_events": [
+        {
+          "status": "injected",
+          "operand_match": true,
+          "slot_occupied": false
+        }
+      ],
+      "reference_adopted": null,
+      "seconds": 3.6771332959178835,
+      "set": "original36"
+    },
+    {
+      "id": 1,
+      "kind": "dependent",
+      "condition": "A7",
+      "block": 32,
+      "delay": 0,
+      "text": "91008 + 83201 = 174209 > 174205 \u2192 YES\nAnswer: YES",
+      "raw_text": "91008 + 83201 = 174209 > 174205 \u2192 YES\nAnswer: YES",
+      "expected": "YES",
+      "prediction": "YES",
+      "correct": true,
+      "metrics": {
+        "seconds": 2.5264265349833295,
+        "forward_calls": 7,
+        "events": [
+          {
+            "type": "splice",
+            "step": 0,
+            "position": 219,
+            "old_width": 8,
+            "new_width": 6,
+            "old_prompt": 228,
+            "new_prompt": 226
+          },
+          {
+            "type": "native_edit_revisit",
+            "result": "r1",
+            "step": 0,
+            "count": 4,
+            "positions": [
+              226,
+              227,
+              233,
+              234
+            ],
+            "attention_diagnostic": "unavailable in SDPA path"
+          },
+          {
+            "type": "arrival",
+            "result": "r1",
+            "step": 0,
+            "midblock": false,
+            "remasked_tokens": 0
+          }
+        ],
+        "lock_violations": 0,
+        "remask_count": 1,
+        "pending_at_end": false,
+        "step_budget_exhausted": false,
+        "residual_masks": 0
+      },
+      "injection_events": [
+        {
+          "status": "injected",
+          "operand_match": true,
+          "slot_occupied": false
+        }
+      ],
+      "reference_adopted": null,
+      "seconds": 2.52695292502176,
+      "set": "original36"
+    },
+    {
+      "id": 2,
+      "kind": "direct",
+      "condition": "A7",
+      "block": 32,
+      "delay": 0,
+      "text": "14927 + 75437 = Answer: 90364",
+      "raw_text": "14927 + 75437 = Answer: 90364",
+      "expected": "90364",
+      "prediction": "90364",
+      "correct": true,
+      "metrics": {
+        "seconds": 3.871061773970723,
+        "forward_calls": 11,
+        "events": [
+          {
+            "type": "splice",
+            "step": 0,
+            "position": 203,
+            "old_width": 8,
+            "new_width": 5,
+            "old_prompt": 212,
+            "new_prompt": 209
+          },
+          {
+            "type": "native_edit_revisit",
+            "result": "r1",
+            "step": 0,
+            "count": 12,
+            "positions": [
+              209,
+              210,
+              211,
+              212,
+              213,
+              214,
+              215,
+              216,
+              217,
+              218,
+              219,
+              220
+            ],
+            "attention_diagnostic": "unavailable in SDPA path"
+          },
+          {
+            "type": "arrival",
+            "result": "r1",
+            "step": 0,
+            "midblock": false,
+            "remasked_tokens": 0
+          }
+        ],
+        "lock_violations": 0,
+        "remask_count": 1,
+        "pending_at_end": false,
+        "step_budget_exhausted": false,
+        "residual_masks": 0
+      },
+      "injection_events": [
+        {
+          "status": "injected",
+          "operand_match": true,
+          "slot_occupied": false
+        }
+      ],
+      "reference_adopted": null,
+      "seconds": 3.871638756012544,
+      "set": "original36"
+    },
+    {
+      "id": 3,
+      "kind": "dependent",
+      "condition": "A7",
+      "block": 32,
+      "delay": 0,
+      "text": "14927 + 75437 = 90364 > 90367? No\nAnswer: NO",
+      "raw_text": "14927 + 75437 = 90364 > 90367? No\nAnswer: NO",
+      "expected": "NO",
+      "prediction": "NO",
+      "correct": true,
+      "metrics": {
+        "seconds": 4.190214389003813,
+        "forward_calls": 11,
+        "events": [
+          {
+            "type": "splice",
+            "step": 0,
+            "position": 218,
+            "old_width": 8,
+            "new_width": 5,
+            "old_prompt": 227,
+            "new_prompt": 224
+          },
+          {
+            "type": "native_edit_revisit",
+            "result": "r1",
+            "step": 0,
+            "count": 4,
+            "positions": [
+              224,
+              225,
+              228,
+              230
+            ],
+            "attention_diagnostic": "unavailable in SDPA path"
+          },
+          {
+            "type": "arrival",
+            "result": "r1",
+            "step": 0,
+            "midblock": false,
+            "remasked_tokens": 0
+          }
+        ],
+        "lock_violations": 0,
+        "remask_count": 1,
+        "pending_at_end": false,
+        "step_budget_exhausted": false,
+        "residual_masks": 0
+      },
+      "injection_events": [
+        {
+          "status": "injected",
+          "operand_match": true,
+          "slot_occupied": false
+        }
+      ],
+      "reference_adopted": null,
+      "seconds": 4.190761570003815,
+      "set": "original36"
+    },
+    {
+      "id": 4,
+      "kind": "direct",
+      "condition": "A7",
+      "block": 32,
+      "delay": 0,
+      "text": "44452 - 10947 = Answer: 33505",
+      "raw_text": "44452 - 10947 = Answer: 33505",
+      "expected": "33505",
+      "prediction": "33505",
+      "correct": true,
+      "metrics": {
+        "seconds": 3.8199214430060238,
+        "forward_calls": 11,
+        "events": [
+          {
+            "type": "splice",
+            "step": 0,
+            "position": 203,
+            "old_width": 8,
+            "new_width": 5,
+            "old_prompt": 212,
+            "new_prompt": 209
+          },
+          {
+            "type": "native_edit_revisit",
+            "result": "r1",
+            "step": 0,
+            "count": 11,
+            "positions": [
+              209,
+              210,
+              211,
+              212,
+              213,
+              214,
+              216,
+              217,
+              218,
+              219,
+              220
+            ],
+            "attention_diagnostic": "unavailable in SDPA path"
+          },
+          {
+            "type": "arrival",
+            "result": "r1",
+            "step": 0,
+            "midblock": true,
+            "remasked_tokens": 0
+          }
+        ],
+        "lock_violations": 0,
+        "remask_count": 1,
+        "pending_at_end": false,
+        "step_budget_exhausted": false,
+        "residual_masks": 0
+      },
+      "injection_events": [
+        {
+          "status": "injected",
+          "operand_match": true,
+          "slot_occupied": false
+        }
+      ],
+      "reference_adopted": null,
+      "seconds": 3.8205116849858314,
+      "set": "original36"
+    }
+  ],
+  "delay_calibration": {
+    "cohort": "v1.1 full A7, all 240 records",
+    "seconds": 939.9638081484009,
+    "forward_calls": 2701,
+    "mean_step_seconds": 0.34800585270211065,
+    "definition": "sum sampler seconds / sum forward calls; includes sampler overhead and near-instant arithmetic insertion, no artificial delayed controls",
+    "source_sha256": "7459a92fc80ef42349ea47e3c4860f15d9c03f3e603f3bad5300632fd925a86b"
+  }
+}
