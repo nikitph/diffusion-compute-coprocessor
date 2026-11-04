@@ -1,0 +1,6 @@
+{"task": "velocity_reversed", "condition": "AR-round", "initial": 239, "final": 239, "weights": [3, 1, 1, 1, 3, 3], "seconds": 3.5214887920301408}
+{"task": "position_reversed", "condition": "AR-round", "initial": 175, "final": 175, "weights": [1, 3, 1, 3, 1, 3], "seconds": 2.20241512497887}
+{"task": "paddle_reversed", "condition": "AR-round", "initial": 181, "final": 181, "weights": [3, 3, 3, 1, 1, 1], "seconds": 2.325656458036974}
+{"task": "velocity_missing", "condition": "AR-round", "initial": 321, "final": 321, "weights": [3, 2, 1, 1, 2, 3], "seconds": 2.44089841702953}
+{"task": "one_hidden_dead", "condition": "AR-round", "initial": 367, "final": 367, "weights": [2, 2, 2, 1, 1, 3], "seconds": 2.3218814579304308}
+{"task": "gain_doubled", "condition": "AR-round", "initial": 442, "final": 442, "weights": [4, 4, 0, 0, 0, 4], "seconds": 2.306531749898568}

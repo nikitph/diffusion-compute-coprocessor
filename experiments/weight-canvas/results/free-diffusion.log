@@ -1,0 +1,24 @@
+{"task": "velocity_reversed", "arm": "D-active", "valid": true, "initial": 239, "final": 239, "weights": [3, 1, 1, 1, 3, 3], "seconds": 11.92358508403413}
+{"task": "velocity_reversed", "arm": "D-round", "valid": false, "initial": 239, "final": 0, "weights": null, "seconds": 13.21032049995847}
+{"task": "velocity_reversed", "arm": "D-shuffled", "valid": true, "initial": 239, "final": 239, "weights": [3, 1, 1, 1, 3, 3], "seconds": 10.841300958069041}
+{"task": "velocity_reversed", "arm": "D-none", "valid": false, "initial": 239, "final": 0, "weights": null, "seconds": 8.001411583041772}
+{"task": "position_reversed", "arm": "D-round", "valid": false, "initial": 175, "final": 0, "weights": null, "seconds": 13.322869332972914}
+{"task": "position_reversed", "arm": "D-shuffled", "valid": false, "initial": 175, "final": 0, "weights": null, "seconds": 10.678439665818587}
+{"task": "position_reversed", "arm": "D-none", "valid": false, "initial": 175, "final": 0, "weights": null, "seconds": 7.890332999872044}
+{"task": "position_reversed", "arm": "D-active", "valid": false, "initial": 175, "final": 0, "weights": null, "seconds": 10.91191383288242}
+{"task": "paddle_reversed", "arm": "D-shuffled", "valid": false, "initial": 181, "final": 0, "weights": null, "seconds": 10.881654083030298}
+{"task": "paddle_reversed", "arm": "D-none", "valid": false, "initial": 181, "final": 0, "weights": null, "seconds": 7.953158875228837}
+{"task": "paddle_reversed", "arm": "D-active", "valid": false, "initial": 181, "final": 0, "weights": null, "seconds": 10.908610250102356}
+{"task": "paddle_reversed", "arm": "D-round", "valid": false, "initial": 181, "final": 0, "weights": null, "seconds": 13.39359416696243}
+{"task": "velocity_missing", "arm": "D-none", "valid": false, "initial": 321, "final": 0, "weights": null, "seconds": 7.88920983299613}
+{"task": "velocity_missing", "arm": "D-active", "valid": true, "initial": 321, "final": 321, "weights": [3, 2, 1, 1, 2, 3], "seconds": 11.025356499943882}
+{"task": "velocity_missing", "arm": "D-round", "valid": false, "initial": 321, "final": 0, "weights": null, "seconds": 13.466686540981755}
+{"task": "velocity_missing", "arm": "D-shuffled", "valid": true, "initial": 321, "final": 321, "weights": [3, 2, 1, 1, 2, 3], "seconds": 10.956627500010654}
+{"task": "one_hidden_dead", "arm": "D-active", "valid": false, "initial": 367, "final": 0, "weights": null, "seconds": 10.821626750053838}
+{"task": "one_hidden_dead", "arm": "D-round", "valid": false, "initial": 367, "final": 0, "weights": null, "seconds": 13.448797708144411}
+{"task": "one_hidden_dead", "arm": "D-shuffled", "valid": false, "initial": 367, "final": 0, "weights": null, "seconds": 10.56359662488103}
+{"task": "one_hidden_dead", "arm": "D-none", "valid": false, "initial": 367, "final": 0, "weights": null, "seconds": 7.793002583086491}
+{"task": "gain_doubled", "arm": "D-round", "valid": false, "initial": 442, "final": 0, "weights": null, "seconds": 13.30366774997674}
+{"task": "gain_doubled", "arm": "D-shuffled", "valid": false, "initial": 442, "final": 0, "weights": null, "seconds": 10.954568708082661}
+{"task": "gain_doubled", "arm": "D-none", "valid": false, "initial": 442, "final": 0, "weights": null, "seconds": 7.740995000116527}
+{"task": "gain_doubled", "arm": "D-active", "valid": false, "initial": 442, "final": 0, "weights": null, "seconds": 10.834784958977252}

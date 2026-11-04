@@ -1,0 +1,7 @@
+{
+  "model": "dllm-hub/Qwen2.5-Coder-0.5B-Instruct-diffusion-mdlm-v0.1",
+  "revision": "a284e895a6248256baf2f60502e54aba61b24c1a",
+  "device": "mps",
+  "torch": "2.15.0",
+  "precision": "float32"
+}

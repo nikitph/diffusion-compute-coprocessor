@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "diffusion",
+    "prompt": "Edit this Python program. Set E[0][1] to 3 and E[1][1] to 1. Preserve all other values. Return only the complete E assignment, no explanation.\nE = [[3, 1, 1], [1, 3, 3]]",
+    "output": "```python\nE = [[3, 1, 1], [1, 3, 3]]\nE[0][1] = 3\nE[1][1] = 1\n```\n",
+    "seconds": 4.415559458080679
+  },
+  {
+    "kind": "ar",
+    "prompt": "Edit this Python program. Set E[0][1] to 3 and E[1][1] to 1. Preserve all other values. Return only the complete E assignment, no explanation.\nE = [[3, 1, 1], [1, 3, 3]]",
+    "output": "```python\nE = [[3, 1, 1], [1, 3, 3]]\n```",
+    "seconds": 2.4863854160066694
+  }
+]

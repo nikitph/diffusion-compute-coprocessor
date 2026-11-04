@@ -1,0 +1,9 @@
+{
+  "native-weights/run_free.py": "56ab773573cda6bb3b8a62ab3098b3b24cb3a5447235d0f63f1d126832c1326e",
+  "native-weights/programs.py": "d654aee32749e3cf8e7718dc6648b1388c699e4fc372933df54c5067f6a17c98",
+  "native-weights/PROTOCOL.md": "e4416c728a7e4bec80affbce420cdada96918d8261b93a47721ff974b7ce1466",
+  "models.py": "eae41f61df0fcb1be1b40c01f5ac548c497a1ae645f957a17e7582e36ff49619",
+  "modeling_a2d.py": "a9f9adade753158e4ed24dcae17465d9d2079fefeaa84b570a5da43d2d292573",
+  "controller.py": "09ce76e5881e121a48187e49017488e831dc70b534cba65edf923fd3206ed46d",
+  "run.py": "68004d8a50be5e0b6e9f8832c4ba36981991a0314c8683cc00355bd07831d6a9"
+}

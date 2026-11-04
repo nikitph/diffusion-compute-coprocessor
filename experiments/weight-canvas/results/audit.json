@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "records": {
+    "constrained": 30,
+    "free": 30,
+    "native": 5
+  },
+  "total_records": 65,
+  "frozen_source_files": {
+    "constrained": 8,
+    "free": 8,
+    "native": 7
+  },
+  "free_program_active_arrivals": 21,
+  "score_recomputations": "all valid final controllers",
+  "heldout_practice_overlap": false,
+  "source_hash_mismatches": 0
+}

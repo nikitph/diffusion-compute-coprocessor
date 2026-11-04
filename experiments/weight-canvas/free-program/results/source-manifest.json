@@ -1,0 +1,10 @@
+{
+  "free-program/run_free.py": "3d57db0527cc80ac295fd75c0b5e78f1333bd79e4dd1420869004f601f09ee11",
+  "free-program/programs.py": "b3d03f3de38f7a6884c083e44314c81b83de7bebe73d120a08c6e4299345448a",
+  "free-program/test_programs.py": "0f6fac0327597196e88976c89c8db955d0750d0055a6eb607b4ad9bf0cc8d9a7",
+  "free-program/PROTOCOL.md": "f1132017fb7092e79dde5244023ec263e067d56eba2444bd79404f4e41a426af",
+  "models.py": "eae41f61df0fcb1be1b40c01f5ac548c497a1ae645f957a17e7582e36ff49619",
+  "modeling_a2d.py": "a9f9adade753158e4ed24dcae17465d9d2079fefeaa84b570a5da43d2d292573",
+  "controller.py": "09ce76e5881e121a48187e49017488e831dc70b534cba65edf923fd3206ed46d",
+  "run.py": "68004d8a50be5e0b6e9f8832c4ba36981991a0314c8683cc00355bd07831d6a9"
+}

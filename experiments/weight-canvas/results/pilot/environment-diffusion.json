@@ -1,0 +1,10 @@
+{
+  "model": "dllm-hub/Qwen2.5-Coder-0.5B-Instruct-diffusion-mdlm-v0.1",
+  "revision": "a284e895a6248256baf2f60502e54aba61b24c1a",
+  "device": "mps",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "precision": "float32",
+  "python": "3.11.15 (main, Jul 23 2026, 14:34:23) [Clang 22.1.3 ]",
+  "torch": "2.15.0",
+  "transformers": "4.57.1"
+}

@@ -1,0 +1,72 @@
+{
+  "D-active": {
+    "cases": 6,
+    "valid": 2,
+    "improved": 0,
+    "initial_caught": 1725,
+    "final_caught": 560,
+    "total": 3072,
+    "changed": 0,
+    "arrivals": 6,
+    "changed_after_feedback": 0,
+    "calls": 303,
+    "seconds": 66.42587737599388,
+    "regressions": 1165
+  },
+  "D-round": {
+    "cases": 6,
+    "valid": 0,
+    "improved": 0,
+    "initial_caught": 1725,
+    "final_caught": 0,
+    "total": 3072,
+    "changed": 0,
+    "arrivals": 0,
+    "changed_after_feedback": 0,
+    "calls": 480,
+    "seconds": 80.14593599899672,
+    "regressions": 1725
+  },
+  "D-shuffled": {
+    "cases": 6,
+    "valid": 2,
+    "improved": 0,
+    "initial_caught": 1725,
+    "final_caught": 560,
+    "total": 3072,
+    "changed": 0,
+    "arrivals": 6,
+    "changed_after_feedback": 0,
+    "calls": 303,
+    "seconds": 64.87618753989227,
+    "regressions": 1165
+  },
+  "D-none": {
+    "cases": 6,
+    "valid": 0,
+    "improved": 0,
+    "initial_caught": 1725,
+    "final_caught": 0,
+    "total": 3072,
+    "changed": 0,
+    "arrivals": 6,
+    "changed_after_feedback": 0,
+    "calls": 303,
+    "seconds": 47.2681108743418,
+    "regressions": 1725
+  },
+  "AR-round": {
+    "cases": 6,
+    "valid": 6,
+    "improved": 0,
+    "initial_caught": 1725,
+    "final_caught": 1725,
+    "total": 3072,
+    "changed": 0,
+    "arrivals": 0,
+    "changed_after_feedback": 0,
+    "calls": 300,
+    "seconds": 8.995934582781047,
+    "regressions": 0
+  }
+}

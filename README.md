@@ -14,8 +14,19 @@ and interrupted runs. It is not a production tool runtime.
 | Tool-trained model pilot | LLaDA2.2-mini adaptation | [Model pilot](outputs/llada22-pilot/README.md) |
 | v1.1 | Expanded arithmetic, protected editing and asynchronous tools | [Results](outputs/v1.1-pilot/RESULTS.md) |
 | v1.2 | Pause at dispatch, lock results, resume protected editing | [Calibrated results](outputs/v1.2-pilot/RESULTS.md) |
+| Local weight-canvas pilot | Tiny-A2D/Qwen controller-weight repair with live evaluator feedback | [Results and limitations](experiments/weight-canvas/README.md) |
 
-## Current conclusion
+## Local weight-canvas follow-up (2026-11-04)
+
+65 local runs across two six-task pilots and a one-task diagnostic demonstrated
+feedback insertion into unfinished weight programs, but no autonomous controller
+repair. Correct and shuffled active feedback had identical task outcomes in the
+free-program pilot. A separate explicit-edit diagnostic succeeded. These are
+negative small-model capability results, not evidence of a diffusion advantage.
+See the [local experiment](experiments/weight-canvas/README.md) for protocols,
+raw traces, source manifests and reproduction instructions.
+
+## v1.2 conclusion
 
 The v1.2 run was interrupted by a funding limit; analysis was deliberately closed
 using the locally preserved results. It did **not** complete the planned 240-task
@@ -43,6 +54,7 @@ showing that the result's own block still contains masks.
 - `work/`: orchestration, analysis and backup helpers, upstream reference source,
   and intermediate snapshots used during the experiments.
 - `specs/`: original supplied experiment briefs.
+- `experiments/`: new local experiments with pinned protocols and complete traces.
 
 Historical artifacts are kept in their original locations so recorded paths and
 hashes remain meaningful. ZIP archives duplicate some expanded contents and are

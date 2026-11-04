@@ -24,3 +24,13 @@ included in this repository.
 - The pinned LLaDA-8B model metadata in `work/model_info.json` declares MIT.
   The pinned Hugging Face snapshot does not contain a standalone license file.
   No copyright holder or replacement license notice has been invented here.
+
+## Local weight-canvas pilot
+
+`experiments/weight-canvas/modeling_a2d.py` is the pinned Tiny-A2D checkpoint's
+architecture implementation, with only its unused command-line conversion example
+removed. Its Apache-2.0 license is retained in
+`experiments/weight-canvas/LICENSE-A2D`. See the experiment's
+[provenance](experiments/weight-canvas/docs/PROVENANCE.md) for exact source and
+checkpoint revisions. Pretrained weights are downloaded separately and not
+included in this repository.

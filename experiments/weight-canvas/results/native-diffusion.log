@@ -1,0 +1,4 @@
+{"task": "velocity_reversed", "arm": "D-active", "valid": false, "initial": 239, "final": 0, "weights": null, "seconds": 10.800838332856074}
+{"task": "velocity_reversed", "arm": "D-round", "valid": true, "initial": 239, "final": 239, "weights": [3, 1, 1, 1, 3, 3], "seconds": 15.43272287514992}
+{"task": "velocity_reversed", "arm": "D-shuffled", "valid": false, "initial": 239, "final": 0, "weights": null, "seconds": 10.455982625018805}
+{"task": "velocity_reversed", "arm": "D-none", "valid": false, "initial": 239, "final": 0, "weights": null, "seconds": 7.612286916933954}
